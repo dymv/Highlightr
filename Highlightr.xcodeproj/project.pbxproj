@@ -1,0 +1,1352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B90CC941E2C43EF0081CAD5 /* Highlightr.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B90CC921E2C43EF0081CAD5 /* Highlightr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B90CEB11E2C5B3D0081CAD5 /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90CEAD1E2C5B3D0081CAD5 /* CodeAttributedString.swift */; };
+		1B90CEB21E2C5B3D0081CAD5 /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90CEAE1E2C5B3D0081CAD5 /* Highlightr.swift */; };
+		1B90CEB31E2C5B3D0081CAD5 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90CEAF1E2C5B3D0081CAD5 /* HTMLUtils.swift */; };
+		1B90CEB41E2C5B3D0081CAD5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90CEB01E2C5B3D0081CAD5 /* Theme.swift */; };
+		1B90CFB31E2C5B5B0081CAD5 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEB61E2C5B5A0081CAD5 /* highlight.min.js */; };
+		1B90CFB41E2C5B5B0081CAD5 /* 1c.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEB81E2C5B5A0081CAD5 /* 1c.min.js */; };
+		1B90CFB51E2C5B5B0081CAD5 /* abnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEB91E2C5B5A0081CAD5 /* abnf.min.js */; };
+		1B90CFB61E2C5B5B0081CAD5 /* accesslog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBA1E2C5B5A0081CAD5 /* accesslog.min.js */; };
+		1B90CFB71E2C5B5B0081CAD5 /* actionscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBB1E2C5B5A0081CAD5 /* actionscript.min.js */; };
+		1B90CFB81E2C5B5B0081CAD5 /* ada.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBC1E2C5B5A0081CAD5 /* ada.min.js */; };
+		1B90CFB91E2C5B5B0081CAD5 /* apache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBD1E2C5B5A0081CAD5 /* apache.min.js */; };
+		1B90CFBA1E2C5B5B0081CAD5 /* applescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBE1E2C5B5A0081CAD5 /* applescript.min.js */; };
+		1B90CFBB1E2C5B5B0081CAD5 /* arduino.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEBF1E2C5B5A0081CAD5 /* arduino.min.js */; };
+		1B90CFBC1E2C5B5B0081CAD5 /* armasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC01E2C5B5A0081CAD5 /* armasm.min.js */; };
+		1B90CFBD1E2C5B5B0081CAD5 /* asciidoc.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC11E2C5B5A0081CAD5 /* asciidoc.min.js */; };
+		1B90CFBE1E2C5B5B0081CAD5 /* aspectj.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC21E2C5B5A0081CAD5 /* aspectj.min.js */; };
+		1B90CFBF1E2C5B5B0081CAD5 /* autohotkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC31E2C5B5A0081CAD5 /* autohotkey.min.js */; };
+		1B90CFC01E2C5B5B0081CAD5 /* autoit.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC41E2C5B5A0081CAD5 /* autoit.min.js */; };
+		1B90CFC11E2C5B5B0081CAD5 /* avrasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC51E2C5B5A0081CAD5 /* avrasm.min.js */; };
+		1B90CFC21E2C5B5B0081CAD5 /* awk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC61E2C5B5A0081CAD5 /* awk.min.js */; };
+		1B90CFC31E2C5B5B0081CAD5 /* axapta.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC71E2C5B5A0081CAD5 /* axapta.min.js */; };
+		1B90CFC41E2C5B5B0081CAD5 /* bash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC81E2C5B5A0081CAD5 /* bash.min.js */; };
+		1B90CFC51E2C5B5B0081CAD5 /* basic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEC91E2C5B5A0081CAD5 /* basic.min.js */; };
+		1B90CFC61E2C5B5B0081CAD5 /* bnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECA1E2C5B5A0081CAD5 /* bnf.min.js */; };
+		1B90CFC71E2C5B5B0081CAD5 /* brainfuck.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECB1E2C5B5A0081CAD5 /* brainfuck.min.js */; };
+		1B90CFC81E2C5B5B0081CAD5 /* cal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECC1E2C5B5A0081CAD5 /* cal.min.js */; };
+		1B90CFC91E2C5B5B0081CAD5 /* capnproto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECD1E2C5B5A0081CAD5 /* capnproto.min.js */; };
+		1B90CFCA1E2C5B5B0081CAD5 /* ceylon.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECE1E2C5B5A0081CAD5 /* ceylon.min.js */; };
+		1B90CFCB1E2C5B5B0081CAD5 /* clean.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CECF1E2C5B5A0081CAD5 /* clean.min.js */; };
+		1B90CFCC1E2C5B5B0081CAD5 /* clojure-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED01E2C5B5A0081CAD5 /* clojure-repl.min.js */; };
+		1B90CFCD1E2C5B5B0081CAD5 /* clojure.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED11E2C5B5A0081CAD5 /* clojure.min.js */; };
+		1B90CFCE1E2C5B5B0081CAD5 /* cmake.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED21E2C5B5A0081CAD5 /* cmake.min.js */; };
+		1B90CFCF1E2C5B5B0081CAD5 /* coffeescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED31E2C5B5A0081CAD5 /* coffeescript.min.js */; };
+		1B90CFD01E2C5B5B0081CAD5 /* coq.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED41E2C5B5A0081CAD5 /* coq.min.js */; };
+		1B90CFD11E2C5B5B0081CAD5 /* cos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED51E2C5B5A0081CAD5 /* cos.min.js */; };
+		1B90CFD21E2C5B5B0081CAD5 /* cpp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED61E2C5B5A0081CAD5 /* cpp.min.js */; };
+		1B90CFD31E2C5B5B0081CAD5 /* crmsh.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED71E2C5B5A0081CAD5 /* crmsh.min.js */; };
+		1B90CFD41E2C5B5B0081CAD5 /* crystal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED81E2C5B5A0081CAD5 /* crystal.min.js */; };
+		1B90CFD51E2C5B5B0081CAD5 /* cs.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CED91E2C5B5A0081CAD5 /* cs.min.js */; };
+		1B90CFD61E2C5B5B0081CAD5 /* csp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDA1E2C5B5A0081CAD5 /* csp.min.js */; };
+		1B90CFD71E2C5B5B0081CAD5 /* css.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDB1E2C5B5A0081CAD5 /* css.min.js */; };
+		1B90CFD81E2C5B5B0081CAD5 /* d.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDC1E2C5B5A0081CAD5 /* d.min.js */; };
+		1B90CFD91E2C5B5B0081CAD5 /* dart.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDD1E2C5B5A0081CAD5 /* dart.min.js */; };
+		1B90CFDA1E2C5B5B0081CAD5 /* delphi.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDE1E2C5B5A0081CAD5 /* delphi.min.js */; };
+		1B90CFDB1E2C5B5B0081CAD5 /* diff.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEDF1E2C5B5A0081CAD5 /* diff.min.js */; };
+		1B90CFDC1E2C5B5B0081CAD5 /* django.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE01E2C5B5A0081CAD5 /* django.min.js */; };
+		1B90CFDD1E2C5B5B0081CAD5 /* dns.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE11E2C5B5A0081CAD5 /* dns.min.js */; };
+		1B90CFDE1E2C5B5B0081CAD5 /* dockerfile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE21E2C5B5A0081CAD5 /* dockerfile.min.js */; };
+		1B90CFDF1E2C5B5B0081CAD5 /* dos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE31E2C5B5A0081CAD5 /* dos.min.js */; };
+		1B90CFE01E2C5B5B0081CAD5 /* dsconfig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE41E2C5B5A0081CAD5 /* dsconfig.min.js */; };
+		1B90CFE11E2C5B5B0081CAD5 /* dts.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE51E2C5B5A0081CAD5 /* dts.min.js */; };
+		1B90CFE21E2C5B5B0081CAD5 /* dust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE61E2C5B5A0081CAD5 /* dust.min.js */; };
+		1B90CFE31E2C5B5B0081CAD5 /* ebnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE71E2C5B5A0081CAD5 /* ebnf.min.js */; };
+		1B90CFE41E2C5B5B0081CAD5 /* elixir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE81E2C5B5A0081CAD5 /* elixir.min.js */; };
+		1B90CFE51E2C5B5B0081CAD5 /* elm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEE91E2C5B5A0081CAD5 /* elm.min.js */; };
+		1B90CFE61E2C5B5B0081CAD5 /* erb.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEEA1E2C5B5A0081CAD5 /* erb.min.js */; };
+		1B90CFE71E2C5B5B0081CAD5 /* erlang-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEEB1E2C5B5A0081CAD5 /* erlang-repl.min.js */; };
+		1B90CFE81E2C5B5B0081CAD5 /* erlang.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEEC1E2C5B5A0081CAD5 /* erlang.min.js */; };
+		1B90CFE91E2C5B5B0081CAD5 /* excel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEED1E2C5B5A0081CAD5 /* excel.min.js */; };
+		1B90CFEA1E2C5B5B0081CAD5 /* fix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEEE1E2C5B5A0081CAD5 /* fix.min.js */; };
+		1B90CFEB1E2C5B5B0081CAD5 /* flix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEEF1E2C5B5A0081CAD5 /* flix.min.js */; };
+		1B90CFEC1E2C5B5B0081CAD5 /* fortran.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF01E2C5B5A0081CAD5 /* fortran.min.js */; };
+		1B90CFED1E2C5B5B0081CAD5 /* fsharp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF11E2C5B5A0081CAD5 /* fsharp.min.js */; };
+		1B90CFEE1E2C5B5B0081CAD5 /* gams.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF21E2C5B5A0081CAD5 /* gams.min.js */; };
+		1B90CFEF1E2C5B5B0081CAD5 /* gauss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF31E2C5B5A0081CAD5 /* gauss.min.js */; };
+		1B90CFF01E2C5B5B0081CAD5 /* gcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF41E2C5B5A0081CAD5 /* gcode.min.js */; };
+		1B90CFF11E2C5B5B0081CAD5 /* gherkin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF51E2C5B5A0081CAD5 /* gherkin.min.js */; };
+		1B90CFF21E2C5B5B0081CAD5 /* glsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF61E2C5B5A0081CAD5 /* glsl.min.js */; };
+		1B90CFF31E2C5B5B0081CAD5 /* go.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF71E2C5B5A0081CAD5 /* go.min.js */; };
+		1B90CFF41E2C5B5B0081CAD5 /* golo.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF81E2C5B5A0081CAD5 /* golo.min.js */; };
+		1B90CFF51E2C5B5B0081CAD5 /* gradle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEF91E2C5B5A0081CAD5 /* gradle.min.js */; };
+		1B90CFF61E2C5B5B0081CAD5 /* groovy.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFA1E2C5B5A0081CAD5 /* groovy.min.js */; };
+		1B90CFF71E2C5B5B0081CAD5 /* haml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFB1E2C5B5A0081CAD5 /* haml.min.js */; };
+		1B90CFF81E2C5B5B0081CAD5 /* handlebars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFC1E2C5B5A0081CAD5 /* handlebars.min.js */; };
+		1B90CFF91E2C5B5B0081CAD5 /* haskell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFD1E2C5B5A0081CAD5 /* haskell.min.js */; };
+		1B90CFFA1E2C5B5B0081CAD5 /* haxe.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFE1E2C5B5A0081CAD5 /* haxe.min.js */; };
+		1B90CFFB1E2C5B5B0081CAD5 /* hsp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CEFF1E2C5B5A0081CAD5 /* hsp.min.js */; };
+		1B90CFFC1E2C5B5B0081CAD5 /* htmlbars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF001E2C5B5A0081CAD5 /* htmlbars.min.js */; };
+		1B90CFFD1E2C5B5B0081CAD5 /* http.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF011E2C5B5A0081CAD5 /* http.min.js */; };
+		1B90CFFE1E2C5B5B0081CAD5 /* inform7.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF021E2C5B5A0081CAD5 /* inform7.min.js */; };
+		1B90CFFF1E2C5B5B0081CAD5 /* ini.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF031E2C5B5A0081CAD5 /* ini.min.js */; };
+		1B90D0001E2C5B5B0081CAD5 /* irpf90.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF041E2C5B5A0081CAD5 /* irpf90.min.js */; };
+		1B90D0011E2C5B5B0081CAD5 /* java.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF051E2C5B5A0081CAD5 /* java.min.js */; };
+		1B90D0021E2C5B5B0081CAD5 /* javascript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF061E2C5B5A0081CAD5 /* javascript.min.js */; };
+		1B90D0031E2C5B5B0081CAD5 /* json.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF071E2C5B5A0081CAD5 /* json.min.js */; };
+		1B90D0041E2C5B5B0081CAD5 /* julia.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF081E2C5B5A0081CAD5 /* julia.min.js */; };
+		1B90D0051E2C5B5B0081CAD5 /* kotlin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF091E2C5B5A0081CAD5 /* kotlin.min.js */; };
+		1B90D0061E2C5B5B0081CAD5 /* lasso.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0A1E2C5B5A0081CAD5 /* lasso.min.js */; };
+		1B90D0071E2C5B5B0081CAD5 /* ldif.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0B1E2C5B5A0081CAD5 /* ldif.min.js */; };
+		1B90D0081E2C5B5B0081CAD5 /* less.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0C1E2C5B5A0081CAD5 /* less.min.js */; };
+		1B90D0091E2C5B5B0081CAD5 /* lisp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0D1E2C5B5A0081CAD5 /* lisp.min.js */; };
+		1B90D00A1E2C5B5B0081CAD5 /* livecodeserver.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0E1E2C5B5A0081CAD5 /* livecodeserver.min.js */; };
+		1B90D00B1E2C5B5B0081CAD5 /* livescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF0F1E2C5B5A0081CAD5 /* livescript.min.js */; };
+		1B90D00C1E2C5B5B0081CAD5 /* llvm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF101E2C5B5A0081CAD5 /* llvm.min.js */; };
+		1B90D00D1E2C5B5B0081CAD5 /* lsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF111E2C5B5A0081CAD5 /* lsl.min.js */; };
+		1B90D00E1E2C5B5B0081CAD5 /* lua.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF121E2C5B5A0081CAD5 /* lua.min.js */; };
+		1B90D00F1E2C5B5B0081CAD5 /* makefile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF131E2C5B5A0081CAD5 /* makefile.min.js */; };
+		1B90D0101E2C5B5B0081CAD5 /* markdown.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF141E2C5B5A0081CAD5 /* markdown.min.js */; };
+		1B90D0111E2C5B5B0081CAD5 /* mathematica.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF151E2C5B5A0081CAD5 /* mathematica.min.js */; };
+		1B90D0121E2C5B5B0081CAD5 /* matlab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF161E2C5B5A0081CAD5 /* matlab.min.js */; };
+		1B90D0131E2C5B5B0081CAD5 /* maxima.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF171E2C5B5A0081CAD5 /* maxima.min.js */; };
+		1B90D0141E2C5B5B0081CAD5 /* mel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF181E2C5B5A0081CAD5 /* mel.min.js */; };
+		1B90D0151E2C5B5B0081CAD5 /* mercury.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF191E2C5B5A0081CAD5 /* mercury.min.js */; };
+		1B90D0161E2C5B5B0081CAD5 /* mipsasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1A1E2C5B5A0081CAD5 /* mipsasm.min.js */; };
+		1B90D0171E2C5B5B0081CAD5 /* mizar.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1B1E2C5B5A0081CAD5 /* mizar.min.js */; };
+		1B90D0181E2C5B5B0081CAD5 /* mojolicious.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1C1E2C5B5A0081CAD5 /* mojolicious.min.js */; };
+		1B90D0191E2C5B5B0081CAD5 /* monkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1D1E2C5B5A0081CAD5 /* monkey.min.js */; };
+		1B90D01A1E2C5B5B0081CAD5 /* moonscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1E1E2C5B5B0081CAD5 /* moonscript.min.js */; };
+		1B90D01B1E2C5B5B0081CAD5 /* nginx.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF1F1E2C5B5B0081CAD5 /* nginx.min.js */; };
+		1B90D01C1E2C5B5B0081CAD5 /* nimrod.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF201E2C5B5B0081CAD5 /* nimrod.min.js */; };
+		1B90D01D1E2C5B5B0081CAD5 /* nix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF211E2C5B5B0081CAD5 /* nix.min.js */; };
+		1B90D01E1E2C5B5B0081CAD5 /* nsis.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF221E2C5B5B0081CAD5 /* nsis.min.js */; };
+		1B90D01F1E2C5B5B0081CAD5 /* objectivec.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF231E2C5B5B0081CAD5 /* objectivec.min.js */; };
+		1B90D0201E2C5B5B0081CAD5 /* ocaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF241E2C5B5B0081CAD5 /* ocaml.min.js */; };
+		1B90D0211E2C5B5B0081CAD5 /* openscad.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF251E2C5B5B0081CAD5 /* openscad.min.js */; };
+		1B90D0221E2C5B5B0081CAD5 /* oxygene.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF261E2C5B5B0081CAD5 /* oxygene.min.js */; };
+		1B90D0231E2C5B5B0081CAD5 /* parser3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF271E2C5B5B0081CAD5 /* parser3.min.js */; };
+		1B90D0241E2C5B5B0081CAD5 /* perl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF281E2C5B5B0081CAD5 /* perl.min.js */; };
+		1B90D0251E2C5B5B0081CAD5 /* pf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF291E2C5B5B0081CAD5 /* pf.min.js */; };
+		1B90D0261E2C5B5B0081CAD5 /* php.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2A1E2C5B5B0081CAD5 /* php.min.js */; };
+		1B90D0271E2C5B5B0081CAD5 /* pony.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2B1E2C5B5B0081CAD5 /* pony.min.js */; };
+		1B90D0281E2C5B5B0081CAD5 /* powershell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2C1E2C5B5B0081CAD5 /* powershell.min.js */; };
+		1B90D0291E2C5B5B0081CAD5 /* processing.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2D1E2C5B5B0081CAD5 /* processing.min.js */; };
+		1B90D02A1E2C5B5B0081CAD5 /* profile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2E1E2C5B5B0081CAD5 /* profile.min.js */; };
+		1B90D02B1E2C5B5B0081CAD5 /* prolog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF2F1E2C5B5B0081CAD5 /* prolog.min.js */; };
+		1B90D02C1E2C5B5B0081CAD5 /* protobuf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF301E2C5B5B0081CAD5 /* protobuf.min.js */; };
+		1B90D02D1E2C5B5B0081CAD5 /* puppet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF311E2C5B5B0081CAD5 /* puppet.min.js */; };
+		1B90D02E1E2C5B5B0081CAD5 /* purebasic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF321E2C5B5B0081CAD5 /* purebasic.min.js */; };
+		1B90D02F1E2C5B5B0081CAD5 /* python.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF331E2C5B5B0081CAD5 /* python.min.js */; };
+		1B90D0301E2C5B5B0081CAD5 /* q.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF341E2C5B5B0081CAD5 /* q.min.js */; };
+		1B90D0311E2C5B5B0081CAD5 /* qml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF351E2C5B5B0081CAD5 /* qml.min.js */; };
+		1B90D0321E2C5B5B0081CAD5 /* r.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF361E2C5B5B0081CAD5 /* r.min.js */; };
+		1B90D0331E2C5B5B0081CAD5 /* rib.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF371E2C5B5B0081CAD5 /* rib.min.js */; };
+		1B90D0341E2C5B5B0081CAD5 /* roboconf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF381E2C5B5B0081CAD5 /* roboconf.min.js */; };
+		1B90D0351E2C5B5B0081CAD5 /* rsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF391E2C5B5B0081CAD5 /* rsl.min.js */; };
+		1B90D0361E2C5B5B0081CAD5 /* ruby.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3A1E2C5B5B0081CAD5 /* ruby.min.js */; };
+		1B90D0371E2C5B5B0081CAD5 /* ruleslanguage.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3B1E2C5B5B0081CAD5 /* ruleslanguage.min.js */; };
+		1B90D0381E2C5B5B0081CAD5 /* rust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3C1E2C5B5B0081CAD5 /* rust.min.js */; };
+		1B90D0391E2C5B5B0081CAD5 /* scala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3D1E2C5B5B0081CAD5 /* scala.min.js */; };
+		1B90D03A1E2C5B5B0081CAD5 /* scheme.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3E1E2C5B5B0081CAD5 /* scheme.min.js */; };
+		1B90D03B1E2C5B5B0081CAD5 /* scilab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF3F1E2C5B5B0081CAD5 /* scilab.min.js */; };
+		1B90D03C1E2C5B5B0081CAD5 /* scss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF401E2C5B5B0081CAD5 /* scss.min.js */; };
+		1B90D03D1E2C5B5B0081CAD5 /* smali.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF411E2C5B5B0081CAD5 /* smali.min.js */; };
+		1B90D03E1E2C5B5B0081CAD5 /* smalltalk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF421E2C5B5B0081CAD5 /* smalltalk.min.js */; };
+		1B90D03F1E2C5B5B0081CAD5 /* sml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF431E2C5B5B0081CAD5 /* sml.min.js */; };
+		1B90D0401E2C5B5B0081CAD5 /* sqf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF441E2C5B5B0081CAD5 /* sqf.min.js */; };
+		1B90D0411E2C5B5B0081CAD5 /* sql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF451E2C5B5B0081CAD5 /* sql.min.js */; };
+		1B90D0421E2C5B5B0081CAD5 /* stan.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF461E2C5B5B0081CAD5 /* stan.min.js */; };
+		1B90D0431E2C5B5B0081CAD5 /* stata.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF471E2C5B5B0081CAD5 /* stata.min.js */; };
+		1B90D0441E2C5B5B0081CAD5 /* step21.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF481E2C5B5B0081CAD5 /* step21.min.js */; };
+		1B90D0451E2C5B5B0081CAD5 /* stylus.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF491E2C5B5B0081CAD5 /* stylus.min.js */; };
+		1B90D0461E2C5B5B0081CAD5 /* subunit.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4A1E2C5B5B0081CAD5 /* subunit.min.js */; };
+		1B90D0471E2C5B5B0081CAD5 /* swift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4B1E2C5B5B0081CAD5 /* swift.min.js */; };
+		1B90D0481E2C5B5B0081CAD5 /* taggerscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4C1E2C5B5B0081CAD5 /* taggerscript.min.js */; };
+		1B90D0491E2C5B5B0081CAD5 /* tap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4D1E2C5B5B0081CAD5 /* tap.min.js */; };
+		1B90D04A1E2C5B5B0081CAD5 /* tcl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4E1E2C5B5B0081CAD5 /* tcl.min.js */; };
+		1B90D04B1E2C5B5B0081CAD5 /* tex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF4F1E2C5B5B0081CAD5 /* tex.min.js */; };
+		1B90D04C1E2C5B5B0081CAD5 /* thrift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF501E2C5B5B0081CAD5 /* thrift.min.js */; };
+		1B90D04D1E2C5B5B0081CAD5 /* tp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF511E2C5B5B0081CAD5 /* tp.min.js */; };
+		1B90D04E1E2C5B5B0081CAD5 /* twig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF521E2C5B5B0081CAD5 /* twig.min.js */; };
+		1B90D04F1E2C5B5B0081CAD5 /* typescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF531E2C5B5B0081CAD5 /* typescript.min.js */; };
+		1B90D0501E2C5B5B0081CAD5 /* vala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF541E2C5B5B0081CAD5 /* vala.min.js */; };
+		1B90D0511E2C5B5B0081CAD5 /* vbnet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF551E2C5B5B0081CAD5 /* vbnet.min.js */; };
+		1B90D0521E2C5B5B0081CAD5 /* vbscript-html.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF561E2C5B5B0081CAD5 /* vbscript-html.min.js */; };
+		1B90D0531E2C5B5B0081CAD5 /* vbscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF571E2C5B5B0081CAD5 /* vbscript.min.js */; };
+		1B90D0541E2C5B5B0081CAD5 /* verilog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF581E2C5B5B0081CAD5 /* verilog.min.js */; };
+		1B90D0551E2C5B5B0081CAD5 /* vhdl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF591E2C5B5B0081CAD5 /* vhdl.min.js */; };
+		1B90D0561E2C5B5B0081CAD5 /* vim.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5A1E2C5B5B0081CAD5 /* vim.min.js */; };
+		1B90D0571E2C5B5B0081CAD5 /* x86asm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5B1E2C5B5B0081CAD5 /* x86asm.min.js */; };
+		1B90D0581E2C5B5B0081CAD5 /* xl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5C1E2C5B5B0081CAD5 /* xl.min.js */; };
+		1B90D0591E2C5B5B0081CAD5 /* xml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5D1E2C5B5B0081CAD5 /* xml.min.js */; };
+		1B90D05A1E2C5B5B0081CAD5 /* xquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5E1E2C5B5B0081CAD5 /* xquery.min.js */; };
+		1B90D05B1E2C5B5B0081CAD5 /* yaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF5F1E2C5B5B0081CAD5 /* yaml.min.js */; };
+		1B90D05C1E2C5B5B0081CAD5 /* zephir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF601E2C5B5B0081CAD5 /* zephir.min.js */; };
+		1B90D05E1E2C5B5B0081CAD5 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF631E2C5B5B0081CAD5 /* agate.min.css */; };
+		1B90D05F1E2C5B5B0081CAD5 /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF641E2C5B5B0081CAD5 /* androidstudio.min.css */; };
+		1B90D0601E2C5B5B0081CAD5 /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF651E2C5B5B0081CAD5 /* arduino-light.min.css */; };
+		1B90D0611E2C5B5B0081CAD5 /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF661E2C5B5B0081CAD5 /* arta.min.css */; };
+		1B90D0621E2C5B5B0081CAD5 /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF671E2C5B5B0081CAD5 /* ascetic.min.css */; };
+		1B90D0631E2C5B5B0081CAD5 /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF681E2C5B5B0081CAD5 /* atelier-cave-dark.min.css */; };
+		1B90D0641E2C5B5B0081CAD5 /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF691E2C5B5B0081CAD5 /* atelier-cave-light.min.css */; };
+		1B90D0651E2C5B5B0081CAD5 /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6A1E2C5B5B0081CAD5 /* atelier-dune-dark.min.css */; };
+		1B90D0661E2C5B5B0081CAD5 /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6B1E2C5B5B0081CAD5 /* atelier-dune-light.min.css */; };
+		1B90D0671E2C5B5B0081CAD5 /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6C1E2C5B5B0081CAD5 /* atelier-estuary-dark.min.css */; };
+		1B90D0681E2C5B5B0081CAD5 /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6D1E2C5B5B0081CAD5 /* atelier-estuary-light.min.css */; };
+		1B90D0691E2C5B5B0081CAD5 /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6E1E2C5B5B0081CAD5 /* atelier-forest-dark.min.css */; };
+		1B90D06A1E2C5B5B0081CAD5 /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF6F1E2C5B5B0081CAD5 /* atelier-forest-light.min.css */; };
+		1B90D06B1E2C5B5B0081CAD5 /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF701E2C5B5B0081CAD5 /* atelier-heath-dark.min.css */; };
+		1B90D06C1E2C5B5B0081CAD5 /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF711E2C5B5B0081CAD5 /* atelier-heath-light.min.css */; };
+		1B90D06D1E2C5B5B0081CAD5 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF721E2C5B5B0081CAD5 /* atelier-lakeside-dark.min.css */; };
+		1B90D06E1E2C5B5B0081CAD5 /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF731E2C5B5B0081CAD5 /* atelier-lakeside-light.min.css */; };
+		1B90D06F1E2C5B5B0081CAD5 /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF741E2C5B5B0081CAD5 /* atelier-plateau-dark.min.css */; };
+		1B90D0701E2C5B5B0081CAD5 /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF751E2C5B5B0081CAD5 /* atelier-plateau-light.min.css */; };
+		1B90D0711E2C5B5B0081CAD5 /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF761E2C5B5B0081CAD5 /* atelier-savanna-dark.min.css */; };
+		1B90D0721E2C5B5B0081CAD5 /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF771E2C5B5B0081CAD5 /* atelier-savanna-light.min.css */; };
+		1B90D0731E2C5B5B0081CAD5 /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF781E2C5B5B0081CAD5 /* atelier-seaside-dark.min.css */; };
+		1B90D0741E2C5B5B0081CAD5 /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF791E2C5B5B0081CAD5 /* atelier-seaside-light.min.css */; };
+		1B90D0751E2C5B5B0081CAD5 /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7A1E2C5B5B0081CAD5 /* atelier-sulphurpool-dark.min.css */; };
+		1B90D0761E2C5B5B0081CAD5 /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7B1E2C5B5B0081CAD5 /* atelier-sulphurpool-light.min.css */; };
+		1B90D0771E2C5B5B0081CAD5 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7C1E2C5B5B0081CAD5 /* atom-one-dark.min.css */; };
+		1B90D0781E2C5B5B0081CAD5 /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7D1E2C5B5B0081CAD5 /* atom-one-light.min.css */; };
+		1B90D0791E2C5B5B0081CAD5 /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7E1E2C5B5B0081CAD5 /* brown-paper.min.css */; };
+		1B90D07A1E2C5B5B0081CAD5 /* brown-papersq.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF7F1E2C5B5B0081CAD5 /* brown-papersq.png */; };
+		1B90D07B1E2C5B5B0081CAD5 /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF801E2C5B5B0081CAD5 /* codepen-embed.min.css */; };
+		1B90D07C1E2C5B5B0081CAD5 /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF811E2C5B5B0081CAD5 /* color-brewer.min.css */; };
+		1B90D07D1E2C5B5B0081CAD5 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF821E2C5B5B0081CAD5 /* darcula.min.css */; };
+		1B90D07E1E2C5B5B0081CAD5 /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF831E2C5B5B0081CAD5 /* dark.min.css */; };
+		1B90D07F1E2C5B5B0081CAD5 /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF841E2C5B5B0081CAD5 /* darkula.min.css */; };
+		1B90D0801E2C5B5B0081CAD5 /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF851E2C5B5B0081CAD5 /* default.min.css */; };
+		1B90D0811E2C5B5B0081CAD5 /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF861E2C5B5B0081CAD5 /* docco.min.css */; };
+		1B90D0821E2C5B5B0081CAD5 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF871E2C5B5B0081CAD5 /* dracula.min.css */; };
+		1B90D0831E2C5B5B0081CAD5 /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF881E2C5B5B0081CAD5 /* far.min.css */; };
+		1B90D0841E2C5B5B0081CAD5 /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF891E2C5B5B0081CAD5 /* foundation.min.css */; };
+		1B90D0851E2C5B5B0081CAD5 /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8A1E2C5B5B0081CAD5 /* github-gist.min.css */; };
+		1B90D0861E2C5B5B0081CAD5 /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8B1E2C5B5B0081CAD5 /* github.min.css */; };
+		1B90D0871E2C5B5B0081CAD5 /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8C1E2C5B5B0081CAD5 /* googlecode.min.css */; };
+		1B90D0881E2C5B5B0081CAD5 /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8D1E2C5B5B0081CAD5 /* grayscale.min.css */; };
+		1B90D0891E2C5B5B0081CAD5 /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8E1E2C5B5B0081CAD5 /* gruvbox-dark.min.css */; };
+		1B90D08A1E2C5B5B0081CAD5 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF8F1E2C5B5B0081CAD5 /* gruvbox-light.min.css */; };
+		1B90D08B1E2C5B5B0081CAD5 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF901E2C5B5B0081CAD5 /* hopscotch.min.css */; };
+		1B90D08C1E2C5B5B0081CAD5 /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF911E2C5B5B0081CAD5 /* hybrid.min.css */; };
+		1B90D08D1E2C5B5B0081CAD5 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF921E2C5B5B0081CAD5 /* idea.min.css */; };
+		1B90D08E1E2C5B5B0081CAD5 /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF931E2C5B5B0081CAD5 /* ir-black.min.css */; };
+		1B90D08F1E2C5B5B0081CAD5 /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF941E2C5B5B0081CAD5 /* kimbie.dark.min.css */; };
+		1B90D0901E2C5B5B0081CAD5 /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF951E2C5B5B0081CAD5 /* kimbie.light.min.css */; };
+		1B90D0911E2C5B5B0081CAD5 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF961E2C5B5B0081CAD5 /* magula.min.css */; };
+		1B90D0921E2C5B5B0081CAD5 /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF971E2C5B5B0081CAD5 /* mono-blue.min.css */; };
+		1B90D0931E2C5B5B0081CAD5 /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF981E2C5B5B0081CAD5 /* monokai-sublime.min.css */; };
+		1B90D0941E2C5B5B0081CAD5 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF991E2C5B5B0081CAD5 /* monokai.min.css */; };
+		1B90D0951E2C5B5B0081CAD5 /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9A1E2C5B5B0081CAD5 /* obsidian.min.css */; };
+		1B90D0961E2C5B5B0081CAD5 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9B1E2C5B5B0081CAD5 /* ocean.min.css */; };
+		1B90D0971E2C5B5B0081CAD5 /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9C1E2C5B5B0081CAD5 /* paraiso-dark.min.css */; };
+		1B90D0981E2C5B5B0081CAD5 /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9D1E2C5B5B0081CAD5 /* paraiso-light.min.css */; };
+		1B90D0991E2C5B5B0081CAD5 /* pojoaque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9E1E2C5B5B0081CAD5 /* pojoaque.jpg */; };
+		1B90D09A1E2C5B5B0081CAD5 /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CF9F1E2C5B5B0081CAD5 /* pojoaque.min.css */; };
+		1B90D09B1E2C5B5B0081CAD5 /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA01E2C5B5B0081CAD5 /* purebasic.min.css */; };
+		1B90D09C1E2C5B5B0081CAD5 /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA11E2C5B5B0081CAD5 /* qtcreator_dark.min.css */; };
+		1B90D09D1E2C5B5B0081CAD5 /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA21E2C5B5B0081CAD5 /* qtcreator_light.min.css */; };
+		1B90D09E1E2C5B5B0081CAD5 /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA31E2C5B5B0081CAD5 /* railscasts.min.css */; };
+		1B90D09F1E2C5B5B0081CAD5 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA41E2C5B5B0081CAD5 /* rainbow.min.css */; };
+		1B90D0A01E2C5B5B0081CAD5 /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA51E2C5B5B0081CAD5 /* school-book.min.css */; };
+		1B90D0A11E2C5B5B0081CAD5 /* school-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA61E2C5B5B0081CAD5 /* school-book.png */; };
+		1B90D0A21E2C5B5B0081CAD5 /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA71E2C5B5B0081CAD5 /* solarized-dark.min.css */; };
+		1B90D0A31E2C5B5B0081CAD5 /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA81E2C5B5B0081CAD5 /* solarized-light.min.css */; };
+		1B90D0A41E2C5B5B0081CAD5 /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFA91E2C5B5B0081CAD5 /* sunburst.min.css */; };
+		1B90D0A51E2C5B5B0081CAD5 /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAA1E2C5B5B0081CAD5 /* tomorrow-night-blue.min.css */; };
+		1B90D0A61E2C5B5B0081CAD5 /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAB1E2C5B5B0081CAD5 /* tomorrow-night-bright.min.css */; };
+		1B90D0A71E2C5B5B0081CAD5 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAC1E2C5B5B0081CAD5 /* tomorrow-night-eighties.min.css */; };
+		1B90D0A81E2C5B5B0081CAD5 /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAD1E2C5B5B0081CAD5 /* tomorrow-night.min.css */; };
+		1B90D0A91E2C5B5B0081CAD5 /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAE1E2C5B5B0081CAD5 /* tomorrow.min.css */; };
+		1B90D0AA1E2C5B5B0081CAD5 /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFAF1E2C5B5B0081CAD5 /* vs.min.css */; };
+		1B90D0AB1E2C5B5B0081CAD5 /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFB01E2C5B5B0081CAD5 /* xcode.min.css */; };
+		1B90D0AC1E2C5B5B0081CAD5 /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFB11E2C5B5B0081CAD5 /* xt256.min.css */; };
+		1B90D0AD1E2C5B5B0081CAD5 /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B90CFB21E2C5B5B0081CAD5 /* zenburn.min.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B90CC8F1E2C43EF0081CAD5 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B90CC921E2C43EF0081CAD5 /* Highlightr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Highlightr.h; sourceTree = "<group>"; };
+		1B90CC931E2C43EF0081CAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B90CEAD1E2C5B3D0081CAD5 /* CodeAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = SOURCE_ROOT; };
+		1B90CEAE1E2C5B3D0081CAD5 /* Highlightr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Pod/Classes/Highlightr.swift; sourceTree = SOURCE_ROOT; };
+		1B90CEAF1E2C5B3D0081CAD5 /* HTMLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Pod/Classes/HTMLUtils.swift; sourceTree = SOURCE_ROOT; };
+		1B90CEB01E2C5B3D0081CAD5 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Pod/Classes/Theme.swift; sourceTree = SOURCE_ROOT; };
+		1B90CEB61E2C5B5A0081CAD5 /* highlight.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.min.js; sourceTree = "<group>"; };
+		1B90CEB81E2C5B5A0081CAD5 /* 1c.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 1c.min.js; sourceTree = "<group>"; };
+		1B90CEB91E2C5B5A0081CAD5 /* abnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abnf.min.js; sourceTree = "<group>"; };
+		1B90CEBA1E2C5B5A0081CAD5 /* accesslog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accesslog.min.js; sourceTree = "<group>"; };
+		1B90CEBB1E2C5B5A0081CAD5 /* actionscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = actionscript.min.js; sourceTree = "<group>"; };
+		1B90CEBC1E2C5B5A0081CAD5 /* ada.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ada.min.js; sourceTree = "<group>"; };
+		1B90CEBD1E2C5B5A0081CAD5 /* apache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apache.min.js; sourceTree = "<group>"; };
+		1B90CEBE1E2C5B5A0081CAD5 /* applescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = applescript.min.js; sourceTree = "<group>"; };
+		1B90CEBF1E2C5B5A0081CAD5 /* arduino.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = arduino.min.js; sourceTree = "<group>"; };
+		1B90CEC01E2C5B5A0081CAD5 /* armasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = armasm.min.js; sourceTree = "<group>"; };
+		1B90CEC11E2C5B5A0081CAD5 /* asciidoc.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = asciidoc.min.js; sourceTree = "<group>"; };
+		1B90CEC21E2C5B5A0081CAD5 /* aspectj.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aspectj.min.js; sourceTree = "<group>"; };
+		1B90CEC31E2C5B5A0081CAD5 /* autohotkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autohotkey.min.js; sourceTree = "<group>"; };
+		1B90CEC41E2C5B5A0081CAD5 /* autoit.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autoit.min.js; sourceTree = "<group>"; };
+		1B90CEC51E2C5B5A0081CAD5 /* avrasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = avrasm.min.js; sourceTree = "<group>"; };
+		1B90CEC61E2C5B5A0081CAD5 /* awk.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = awk.min.js; sourceTree = "<group>"; };
+		1B90CEC71E2C5B5A0081CAD5 /* axapta.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = axapta.min.js; sourceTree = "<group>"; };
+		1B90CEC81E2C5B5A0081CAD5 /* bash.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bash.min.js; sourceTree = "<group>"; };
+		1B90CEC91E2C5B5A0081CAD5 /* basic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = basic.min.js; sourceTree = "<group>"; };
+		1B90CECA1E2C5B5A0081CAD5 /* bnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bnf.min.js; sourceTree = "<group>"; };
+		1B90CECB1E2C5B5A0081CAD5 /* brainfuck.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = brainfuck.min.js; sourceTree = "<group>"; };
+		1B90CECC1E2C5B5A0081CAD5 /* cal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cal.min.js; sourceTree = "<group>"; };
+		1B90CECD1E2C5B5A0081CAD5 /* capnproto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = capnproto.min.js; sourceTree = "<group>"; };
+		1B90CECE1E2C5B5A0081CAD5 /* ceylon.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ceylon.min.js; sourceTree = "<group>"; };
+		1B90CECF1E2C5B5A0081CAD5 /* clean.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clean.min.js; sourceTree = "<group>"; };
+		1B90CED01E2C5B5A0081CAD5 /* clojure-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "clojure-repl.min.js"; sourceTree = "<group>"; };
+		1B90CED11E2C5B5A0081CAD5 /* clojure.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clojure.min.js; sourceTree = "<group>"; };
+		1B90CED21E2C5B5A0081CAD5 /* cmake.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cmake.min.js; sourceTree = "<group>"; };
+		1B90CED31E2C5B5A0081CAD5 /* coffeescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coffeescript.min.js; sourceTree = "<group>"; };
+		1B90CED41E2C5B5A0081CAD5 /* coq.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coq.min.js; sourceTree = "<group>"; };
+		1B90CED51E2C5B5A0081CAD5 /* cos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cos.min.js; sourceTree = "<group>"; };
+		1B90CED61E2C5B5A0081CAD5 /* cpp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cpp.min.js; sourceTree = "<group>"; };
+		1B90CED71E2C5B5A0081CAD5 /* crmsh.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crmsh.min.js; sourceTree = "<group>"; };
+		1B90CED81E2C5B5A0081CAD5 /* crystal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crystal.min.js; sourceTree = "<group>"; };
+		1B90CED91E2C5B5A0081CAD5 /* cs.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cs.min.js; sourceTree = "<group>"; };
+		1B90CEDA1E2C5B5A0081CAD5 /* csp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = csp.min.js; sourceTree = "<group>"; };
+		1B90CEDB1E2C5B5A0081CAD5 /* css.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = css.min.js; sourceTree = "<group>"; };
+		1B90CEDC1E2C5B5A0081CAD5 /* d.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d.min.js; sourceTree = "<group>"; };
+		1B90CEDD1E2C5B5A0081CAD5 /* dart.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dart.min.js; sourceTree = "<group>"; };
+		1B90CEDE1E2C5B5A0081CAD5 /* delphi.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = delphi.min.js; sourceTree = "<group>"; };
+		1B90CEDF1E2C5B5A0081CAD5 /* diff.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = diff.min.js; sourceTree = "<group>"; };
+		1B90CEE01E2C5B5A0081CAD5 /* django.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = django.min.js; sourceTree = "<group>"; };
+		1B90CEE11E2C5B5A0081CAD5 /* dns.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dns.min.js; sourceTree = "<group>"; };
+		1B90CEE21E2C5B5A0081CAD5 /* dockerfile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dockerfile.min.js; sourceTree = "<group>"; };
+		1B90CEE31E2C5B5A0081CAD5 /* dos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dos.min.js; sourceTree = "<group>"; };
+		1B90CEE41E2C5B5A0081CAD5 /* dsconfig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dsconfig.min.js; sourceTree = "<group>"; };
+		1B90CEE51E2C5B5A0081CAD5 /* dts.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dts.min.js; sourceTree = "<group>"; };
+		1B90CEE61E2C5B5A0081CAD5 /* dust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dust.min.js; sourceTree = "<group>"; };
+		1B90CEE71E2C5B5A0081CAD5 /* ebnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ebnf.min.js; sourceTree = "<group>"; };
+		1B90CEE81E2C5B5A0081CAD5 /* elixir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elixir.min.js; sourceTree = "<group>"; };
+		1B90CEE91E2C5B5A0081CAD5 /* elm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elm.min.js; sourceTree = "<group>"; };
+		1B90CEEA1E2C5B5A0081CAD5 /* erb.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erb.min.js; sourceTree = "<group>"; };
+		1B90CEEB1E2C5B5A0081CAD5 /* erlang-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "erlang-repl.min.js"; sourceTree = "<group>"; };
+		1B90CEEC1E2C5B5A0081CAD5 /* erlang.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erlang.min.js; sourceTree = "<group>"; };
+		1B90CEED1E2C5B5A0081CAD5 /* excel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = excel.min.js; sourceTree = "<group>"; };
+		1B90CEEE1E2C5B5A0081CAD5 /* fix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fix.min.js; sourceTree = "<group>"; };
+		1B90CEEF1E2C5B5A0081CAD5 /* flix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flix.min.js; sourceTree = "<group>"; };
+		1B90CEF01E2C5B5A0081CAD5 /* fortran.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fortran.min.js; sourceTree = "<group>"; };
+		1B90CEF11E2C5B5A0081CAD5 /* fsharp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fsharp.min.js; sourceTree = "<group>"; };
+		1B90CEF21E2C5B5A0081CAD5 /* gams.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gams.min.js; sourceTree = "<group>"; };
+		1B90CEF31E2C5B5A0081CAD5 /* gauss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gauss.min.js; sourceTree = "<group>"; };
+		1B90CEF41E2C5B5A0081CAD5 /* gcode.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gcode.min.js; sourceTree = "<group>"; };
+		1B90CEF51E2C5B5A0081CAD5 /* gherkin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gherkin.min.js; sourceTree = "<group>"; };
+		1B90CEF61E2C5B5A0081CAD5 /* glsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = glsl.min.js; sourceTree = "<group>"; };
+		1B90CEF71E2C5B5A0081CAD5 /* go.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = go.min.js; sourceTree = "<group>"; };
+		1B90CEF81E2C5B5A0081CAD5 /* golo.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = golo.min.js; sourceTree = "<group>"; };
+		1B90CEF91E2C5B5A0081CAD5 /* gradle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gradle.min.js; sourceTree = "<group>"; };
+		1B90CEFA1E2C5B5A0081CAD5 /* groovy.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groovy.min.js; sourceTree = "<group>"; };
+		1B90CEFB1E2C5B5A0081CAD5 /* haml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haml.min.js; sourceTree = "<group>"; };
+		1B90CEFC1E2C5B5A0081CAD5 /* handlebars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = handlebars.min.js; sourceTree = "<group>"; };
+		1B90CEFD1E2C5B5A0081CAD5 /* haskell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haskell.min.js; sourceTree = "<group>"; };
+		1B90CEFE1E2C5B5A0081CAD5 /* haxe.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haxe.min.js; sourceTree = "<group>"; };
+		1B90CEFF1E2C5B5A0081CAD5 /* hsp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hsp.min.js; sourceTree = "<group>"; };
+		1B90CF001E2C5B5A0081CAD5 /* htmlbars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = htmlbars.min.js; sourceTree = "<group>"; };
+		1B90CF011E2C5B5A0081CAD5 /* http.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = http.min.js; sourceTree = "<group>"; };
+		1B90CF021E2C5B5A0081CAD5 /* inform7.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inform7.min.js; sourceTree = "<group>"; };
+		1B90CF031E2C5B5A0081CAD5 /* ini.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ini.min.js; sourceTree = "<group>"; };
+		1B90CF041E2C5B5A0081CAD5 /* irpf90.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = irpf90.min.js; sourceTree = "<group>"; };
+		1B90CF051E2C5B5A0081CAD5 /* java.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = java.min.js; sourceTree = "<group>"; };
+		1B90CF061E2C5B5A0081CAD5 /* javascript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.min.js; sourceTree = "<group>"; };
+		1B90CF071E2C5B5A0081CAD5 /* json.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.min.js; sourceTree = "<group>"; };
+		1B90CF081E2C5B5A0081CAD5 /* julia.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = julia.min.js; sourceTree = "<group>"; };
+		1B90CF091E2C5B5A0081CAD5 /* kotlin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = kotlin.min.js; sourceTree = "<group>"; };
+		1B90CF0A1E2C5B5A0081CAD5 /* lasso.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lasso.min.js; sourceTree = "<group>"; };
+		1B90CF0B1E2C5B5A0081CAD5 /* ldif.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ldif.min.js; sourceTree = "<group>"; };
+		1B90CF0C1E2C5B5A0081CAD5 /* less.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = less.min.js; sourceTree = "<group>"; };
+		1B90CF0D1E2C5B5A0081CAD5 /* lisp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lisp.min.js; sourceTree = "<group>"; };
+		1B90CF0E1E2C5B5A0081CAD5 /* livecodeserver.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livecodeserver.min.js; sourceTree = "<group>"; };
+		1B90CF0F1E2C5B5A0081CAD5 /* livescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livescript.min.js; sourceTree = "<group>"; };
+		1B90CF101E2C5B5A0081CAD5 /* llvm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = llvm.min.js; sourceTree = "<group>"; };
+		1B90CF111E2C5B5A0081CAD5 /* lsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lsl.min.js; sourceTree = "<group>"; };
+		1B90CF121E2C5B5A0081CAD5 /* lua.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lua.min.js; sourceTree = "<group>"; };
+		1B90CF131E2C5B5A0081CAD5 /* makefile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = makefile.min.js; sourceTree = "<group>"; };
+		1B90CF141E2C5B5A0081CAD5 /* markdown.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = markdown.min.js; sourceTree = "<group>"; };
+		1B90CF151E2C5B5A0081CAD5 /* mathematica.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mathematica.min.js; sourceTree = "<group>"; };
+		1B90CF161E2C5B5A0081CAD5 /* matlab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = matlab.min.js; sourceTree = "<group>"; };
+		1B90CF171E2C5B5A0081CAD5 /* maxima.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = maxima.min.js; sourceTree = "<group>"; };
+		1B90CF181E2C5B5A0081CAD5 /* mel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mel.min.js; sourceTree = "<group>"; };
+		1B90CF191E2C5B5A0081CAD5 /* mercury.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mercury.min.js; sourceTree = "<group>"; };
+		1B90CF1A1E2C5B5A0081CAD5 /* mipsasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mipsasm.min.js; sourceTree = "<group>"; };
+		1B90CF1B1E2C5B5A0081CAD5 /* mizar.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mizar.min.js; sourceTree = "<group>"; };
+		1B90CF1C1E2C5B5A0081CAD5 /* mojolicious.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mojolicious.min.js; sourceTree = "<group>"; };
+		1B90CF1D1E2C5B5A0081CAD5 /* monkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = monkey.min.js; sourceTree = "<group>"; };
+		1B90CF1E1E2C5B5B0081CAD5 /* moonscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = moonscript.min.js; sourceTree = "<group>"; };
+		1B90CF1F1E2C5B5B0081CAD5 /* nginx.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nginx.min.js; sourceTree = "<group>"; };
+		1B90CF201E2C5B5B0081CAD5 /* nimrod.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nimrod.min.js; sourceTree = "<group>"; };
+		1B90CF211E2C5B5B0081CAD5 /* nix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nix.min.js; sourceTree = "<group>"; };
+		1B90CF221E2C5B5B0081CAD5 /* nsis.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nsis.min.js; sourceTree = "<group>"; };
+		1B90CF231E2C5B5B0081CAD5 /* objectivec.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = objectivec.min.js; sourceTree = "<group>"; };
+		1B90CF241E2C5B5B0081CAD5 /* ocaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ocaml.min.js; sourceTree = "<group>"; };
+		1B90CF251E2C5B5B0081CAD5 /* openscad.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = openscad.min.js; sourceTree = "<group>"; };
+		1B90CF261E2C5B5B0081CAD5 /* oxygene.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = oxygene.min.js; sourceTree = "<group>"; };
+		1B90CF271E2C5B5B0081CAD5 /* parser3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = parser3.min.js; sourceTree = "<group>"; };
+		1B90CF281E2C5B5B0081CAD5 /* perl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = perl.min.js; sourceTree = "<group>"; };
+		1B90CF291E2C5B5B0081CAD5 /* pf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pf.min.js; sourceTree = "<group>"; };
+		1B90CF2A1E2C5B5B0081CAD5 /* php.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = php.min.js; sourceTree = "<group>"; };
+		1B90CF2B1E2C5B5B0081CAD5 /* pony.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pony.min.js; sourceTree = "<group>"; };
+		1B90CF2C1E2C5B5B0081CAD5 /* powershell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = powershell.min.js; sourceTree = "<group>"; };
+		1B90CF2D1E2C5B5B0081CAD5 /* processing.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = processing.min.js; sourceTree = "<group>"; };
+		1B90CF2E1E2C5B5B0081CAD5 /* profile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = profile.min.js; sourceTree = "<group>"; };
+		1B90CF2F1E2C5B5B0081CAD5 /* prolog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = prolog.min.js; sourceTree = "<group>"; };
+		1B90CF301E2C5B5B0081CAD5 /* protobuf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = protobuf.min.js; sourceTree = "<group>"; };
+		1B90CF311E2C5B5B0081CAD5 /* puppet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = puppet.min.js; sourceTree = "<group>"; };
+		1B90CF321E2C5B5B0081CAD5 /* purebasic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = purebasic.min.js; sourceTree = "<group>"; };
+		1B90CF331E2C5B5B0081CAD5 /* python.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = python.min.js; sourceTree = "<group>"; };
+		1B90CF341E2C5B5B0081CAD5 /* q.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = q.min.js; sourceTree = "<group>"; };
+		1B90CF351E2C5B5B0081CAD5 /* qml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = qml.min.js; sourceTree = "<group>"; };
+		1B90CF361E2C5B5B0081CAD5 /* r.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = r.min.js; sourceTree = "<group>"; };
+		1B90CF371E2C5B5B0081CAD5 /* rib.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rib.min.js; sourceTree = "<group>"; };
+		1B90CF381E2C5B5B0081CAD5 /* roboconf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = roboconf.min.js; sourceTree = "<group>"; };
+		1B90CF391E2C5B5B0081CAD5 /* rsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rsl.min.js; sourceTree = "<group>"; };
+		1B90CF3A1E2C5B5B0081CAD5 /* ruby.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruby.min.js; sourceTree = "<group>"; };
+		1B90CF3B1E2C5B5B0081CAD5 /* ruleslanguage.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruleslanguage.min.js; sourceTree = "<group>"; };
+		1B90CF3C1E2C5B5B0081CAD5 /* rust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rust.min.js; sourceTree = "<group>"; };
+		1B90CF3D1E2C5B5B0081CAD5 /* scala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scala.min.js; sourceTree = "<group>"; };
+		1B90CF3E1E2C5B5B0081CAD5 /* scheme.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scheme.min.js; sourceTree = "<group>"; };
+		1B90CF3F1E2C5B5B0081CAD5 /* scilab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scilab.min.js; sourceTree = "<group>"; };
+		1B90CF401E2C5B5B0081CAD5 /* scss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scss.min.js; sourceTree = "<group>"; };
+		1B90CF411E2C5B5B0081CAD5 /* smali.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smali.min.js; sourceTree = "<group>"; };
+		1B90CF421E2C5B5B0081CAD5 /* smalltalk.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smalltalk.min.js; sourceTree = "<group>"; };
+		1B90CF431E2C5B5B0081CAD5 /* sml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sml.min.js; sourceTree = "<group>"; };
+		1B90CF441E2C5B5B0081CAD5 /* sqf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sqf.min.js; sourceTree = "<group>"; };
+		1B90CF451E2C5B5B0081CAD5 /* sql.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sql.min.js; sourceTree = "<group>"; };
+		1B90CF461E2C5B5B0081CAD5 /* stan.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stan.min.js; sourceTree = "<group>"; };
+		1B90CF471E2C5B5B0081CAD5 /* stata.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stata.min.js; sourceTree = "<group>"; };
+		1B90CF481E2C5B5B0081CAD5 /* step21.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = step21.min.js; sourceTree = "<group>"; };
+		1B90CF491E2C5B5B0081CAD5 /* stylus.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stylus.min.js; sourceTree = "<group>"; };
+		1B90CF4A1E2C5B5B0081CAD5 /* subunit.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = subunit.min.js; sourceTree = "<group>"; };
+		1B90CF4B1E2C5B5B0081CAD5 /* swift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = swift.min.js; sourceTree = "<group>"; };
+		1B90CF4C1E2C5B5B0081CAD5 /* taggerscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = taggerscript.min.js; sourceTree = "<group>"; };
+		1B90CF4D1E2C5B5B0081CAD5 /* tap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tap.min.js; sourceTree = "<group>"; };
+		1B90CF4E1E2C5B5B0081CAD5 /* tcl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tcl.min.js; sourceTree = "<group>"; };
+		1B90CF4F1E2C5B5B0081CAD5 /* tex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tex.min.js; sourceTree = "<group>"; };
+		1B90CF501E2C5B5B0081CAD5 /* thrift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = thrift.min.js; sourceTree = "<group>"; };
+		1B90CF511E2C5B5B0081CAD5 /* tp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tp.min.js; sourceTree = "<group>"; };
+		1B90CF521E2C5B5B0081CAD5 /* twig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = twig.min.js; sourceTree = "<group>"; };
+		1B90CF531E2C5B5B0081CAD5 /* typescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typescript.min.js; sourceTree = "<group>"; };
+		1B90CF541E2C5B5B0081CAD5 /* vala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vala.min.js; sourceTree = "<group>"; };
+		1B90CF551E2C5B5B0081CAD5 /* vbnet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbnet.min.js; sourceTree = "<group>"; };
+		1B90CF561E2C5B5B0081CAD5 /* vbscript-html.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vbscript-html.min.js"; sourceTree = "<group>"; };
+		1B90CF571E2C5B5B0081CAD5 /* vbscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbscript.min.js; sourceTree = "<group>"; };
+		1B90CF581E2C5B5B0081CAD5 /* verilog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = verilog.min.js; sourceTree = "<group>"; };
+		1B90CF591E2C5B5B0081CAD5 /* vhdl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vhdl.min.js; sourceTree = "<group>"; };
+		1B90CF5A1E2C5B5B0081CAD5 /* vim.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vim.min.js; sourceTree = "<group>"; };
+		1B90CF5B1E2C5B5B0081CAD5 /* x86asm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = x86asm.min.js; sourceTree = "<group>"; };
+		1B90CF5C1E2C5B5B0081CAD5 /* xl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xl.min.js; sourceTree = "<group>"; };
+		1B90CF5D1E2C5B5B0081CAD5 /* xml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xml.min.js; sourceTree = "<group>"; };
+		1B90CF5E1E2C5B5B0081CAD5 /* xquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xquery.min.js; sourceTree = "<group>"; };
+		1B90CF5F1E2C5B5B0081CAD5 /* yaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = yaml.min.js; sourceTree = "<group>"; };
+		1B90CF601E2C5B5B0081CAD5 /* zephir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zephir.min.js; sourceTree = "<group>"; };
+		1B90CF631E2C5B5B0081CAD5 /* agate.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = agate.min.css; sourceTree = "<group>"; };
+		1B90CF641E2C5B5B0081CAD5 /* androidstudio.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = androidstudio.min.css; sourceTree = "<group>"; };
+		1B90CF651E2C5B5B0081CAD5 /* arduino-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "arduino-light.min.css"; sourceTree = "<group>"; };
+		1B90CF661E2C5B5B0081CAD5 /* arta.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = arta.min.css; sourceTree = "<group>"; };
+		1B90CF671E2C5B5B0081CAD5 /* ascetic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ascetic.min.css; sourceTree = "<group>"; };
+		1B90CF681E2C5B5B0081CAD5 /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF691E2C5B5B0081CAD5 /* atelier-cave-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		1B90CF6A1E2C5B5B0081CAD5 /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF6B1E2C5B5B0081CAD5 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		1B90CF6C1E2C5B5B0081CAD5 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF6D1E2C5B5B0081CAD5 /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		1B90CF6E1E2C5B5B0081CAD5 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF6F1E2C5B5B0081CAD5 /* atelier-forest-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		1B90CF701E2C5B5B0081CAD5 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF711E2C5B5B0081CAD5 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		1B90CF721E2C5B5B0081CAD5 /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF731E2C5B5B0081CAD5 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		1B90CF741E2C5B5B0081CAD5 /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF751E2C5B5B0081CAD5 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		1B90CF761E2C5B5B0081CAD5 /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF771E2C5B5B0081CAD5 /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		1B90CF781E2C5B5B0081CAD5 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF791E2C5B5B0081CAD5 /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		1B90CF7A1E2C5B5B0081CAD5 /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF7B1E2C5B5B0081CAD5 /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		1B90CF7C1E2C5B5B0081CAD5 /* atom-one-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atom-one-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF7D1E2C5B5B0081CAD5 /* atom-one-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atom-one-light.min.css"; sourceTree = "<group>"; };
+		1B90CF7E1E2C5B5B0081CAD5 /* brown-paper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "brown-paper.min.css"; sourceTree = "<group>"; };
+		1B90CF7F1E2C5B5B0081CAD5 /* brown-papersq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brown-papersq.png"; sourceTree = "<group>"; };
+		1B90CF801E2C5B5B0081CAD5 /* codepen-embed.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "codepen-embed.min.css"; sourceTree = "<group>"; };
+		1B90CF811E2C5B5B0081CAD5 /* color-brewer.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "color-brewer.min.css"; sourceTree = "<group>"; };
+		1B90CF821E2C5B5B0081CAD5 /* darcula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darcula.min.css; sourceTree = "<group>"; };
+		1B90CF831E2C5B5B0081CAD5 /* dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dark.min.css; sourceTree = "<group>"; };
+		1B90CF841E2C5B5B0081CAD5 /* darkula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkula.min.css; sourceTree = "<group>"; };
+		1B90CF851E2C5B5B0081CAD5 /* default.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.min.css; sourceTree = "<group>"; };
+		1B90CF861E2C5B5B0081CAD5 /* docco.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = docco.min.css; sourceTree = "<group>"; };
+		1B90CF871E2C5B5B0081CAD5 /* dracula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dracula.min.css; sourceTree = "<group>"; };
+		1B90CF881E2C5B5B0081CAD5 /* far.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = far.min.css; sourceTree = "<group>"; };
+		1B90CF891E2C5B5B0081CAD5 /* foundation.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = foundation.min.css; sourceTree = "<group>"; };
+		1B90CF8A1E2C5B5B0081CAD5 /* github-gist.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-gist.min.css"; sourceTree = "<group>"; };
+		1B90CF8B1E2C5B5B0081CAD5 /* github.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.min.css; sourceTree = "<group>"; };
+		1B90CF8C1E2C5B5B0081CAD5 /* googlecode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = googlecode.min.css; sourceTree = "<group>"; };
+		1B90CF8D1E2C5B5B0081CAD5 /* grayscale.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = grayscale.min.css; sourceTree = "<group>"; };
+		1B90CF8E1E2C5B5B0081CAD5 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF8F1E2C5B5B0081CAD5 /* gruvbox-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-light.min.css"; sourceTree = "<group>"; };
+		1B90CF901E2C5B5B0081CAD5 /* hopscotch.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hopscotch.min.css; sourceTree = "<group>"; };
+		1B90CF911E2C5B5B0081CAD5 /* hybrid.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hybrid.min.css; sourceTree = "<group>"; };
+		1B90CF921E2C5B5B0081CAD5 /* idea.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idea.min.css; sourceTree = "<group>"; };
+		1B90CF931E2C5B5B0081CAD5 /* ir-black.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ir-black.min.css"; sourceTree = "<group>"; };
+		1B90CF941E2C5B5B0081CAD5 /* kimbie.dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.dark.min.css; sourceTree = "<group>"; };
+		1B90CF951E2C5B5B0081CAD5 /* kimbie.light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.light.min.css; sourceTree = "<group>"; };
+		1B90CF961E2C5B5B0081CAD5 /* magula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = magula.min.css; sourceTree = "<group>"; };
+		1B90CF971E2C5B5B0081CAD5 /* mono-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mono-blue.min.css"; sourceTree = "<group>"; };
+		1B90CF981E2C5B5B0081CAD5 /* monokai-sublime.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "monokai-sublime.min.css"; sourceTree = "<group>"; };
+		1B90CF991E2C5B5B0081CAD5 /* monokai.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai.min.css; sourceTree = "<group>"; };
+		1B90CF9A1E2C5B5B0081CAD5 /* obsidian.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = obsidian.min.css; sourceTree = "<group>"; };
+		1B90CF9B1E2C5B5B0081CAD5 /* ocean.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ocean.min.css; sourceTree = "<group>"; };
+		1B90CF9C1E2C5B5B0081CAD5 /* paraiso-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-dark.min.css"; sourceTree = "<group>"; };
+		1B90CF9D1E2C5B5B0081CAD5 /* paraiso-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-light.min.css"; sourceTree = "<group>"; };
+		1B90CF9E1E2C5B5B0081CAD5 /* pojoaque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pojoaque.jpg; sourceTree = "<group>"; };
+		1B90CF9F1E2C5B5B0081CAD5 /* pojoaque.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pojoaque.min.css; sourceTree = "<group>"; };
+		1B90CFA01E2C5B5B0081CAD5 /* purebasic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = purebasic.min.css; sourceTree = "<group>"; };
+		1B90CFA11E2C5B5B0081CAD5 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_dark.min.css; sourceTree = "<group>"; };
+		1B90CFA21E2C5B5B0081CAD5 /* qtcreator_light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_light.min.css; sourceTree = "<group>"; };
+		1B90CFA31E2C5B5B0081CAD5 /* railscasts.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = railscasts.min.css; sourceTree = "<group>"; };
+		1B90CFA41E2C5B5B0081CAD5 /* rainbow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rainbow.min.css; sourceTree = "<group>"; };
+		1B90CFA51E2C5B5B0081CAD5 /* school-book.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "school-book.min.css"; sourceTree = "<group>"; };
+		1B90CFA61E2C5B5B0081CAD5 /* school-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "school-book.png"; sourceTree = "<group>"; };
+		1B90CFA71E2C5B5B0081CAD5 /* solarized-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-dark.min.css"; sourceTree = "<group>"; };
+		1B90CFA81E2C5B5B0081CAD5 /* solarized-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-light.min.css"; sourceTree = "<group>"; };
+		1B90CFA91E2C5B5B0081CAD5 /* sunburst.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sunburst.min.css; sourceTree = "<group>"; };
+		1B90CFAA1E2C5B5B0081CAD5 /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		1B90CFAB1E2C5B5B0081CAD5 /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		1B90CFAC1E2C5B5B0081CAD5 /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		1B90CFAD1E2C5B5B0081CAD5 /* tomorrow-night.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night.min.css"; sourceTree = "<group>"; };
+		1B90CFAE1E2C5B5B0081CAD5 /* tomorrow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tomorrow.min.css; sourceTree = "<group>"; };
+		1B90CFAF1E2C5B5B0081CAD5 /* vs.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = vs.min.css; sourceTree = "<group>"; };
+		1B90CFB01E2C5B5B0081CAD5 /* xcode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xcode.min.css; sourceTree = "<group>"; };
+		1B90CFB11E2C5B5B0081CAD5 /* xt256.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xt256.min.css; sourceTree = "<group>"; };
+		1B90CFB21E2C5B5B0081CAD5 /* zenburn.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = zenburn.min.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B90CC8B1E2C43EF0081CAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B90CC851E2C43EF0081CAD5 = {
+			isa = PBXGroup;
+			children = (
+				1B90CC911E2C43EF0081CAD5 /* Highlightr */,
+				1B90CC901E2C43EF0081CAD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B90CC901E2C43EF0081CAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CC8F1E2C43EF0081CAD5 /* Highlightr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B90CC911E2C43EF0081CAD5 /* Highlightr */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CCA21E2C448A0081CAD5 /* Assets */,
+				1B90CC921E2C43EF0081CAD5 /* Highlightr.h */,
+				1B90CC931E2C43EF0081CAD5 /* Info.plist */,
+				1B90CEAD1E2C5B3D0081CAD5 /* CodeAttributedString.swift */,
+				1B90CEAE1E2C5B3D0081CAD5 /* Highlightr.swift */,
+				1B90CEAF1E2C5B3D0081CAD5 /* HTMLUtils.swift */,
+				1B90CEB01E2C5B3D0081CAD5 /* Theme.swift */,
+			);
+			path = Highlightr;
+			sourceTree = "<group>";
+		};
+		1B90CCA21E2C448A0081CAD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CEB51E2C5B5A0081CAD5 /* Highlighter */,
+				1B90CF621E2C5B5B0081CAD5 /* styles */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1B90CEB51E2C5B5A0081CAD5 /* Highlighter */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CEB61E2C5B5A0081CAD5 /* highlight.min.js */,
+				1B90CEB71E2C5B5A0081CAD5 /* languages */,
+			);
+			name = Highlighter;
+			path = Pod/Assets/Highlighter;
+			sourceTree = SOURCE_ROOT;
+		};
+		1B90CEB71E2C5B5A0081CAD5 /* languages */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CEB81E2C5B5A0081CAD5 /* 1c.min.js */,
+				1B90CEB91E2C5B5A0081CAD5 /* abnf.min.js */,
+				1B90CEBA1E2C5B5A0081CAD5 /* accesslog.min.js */,
+				1B90CEBB1E2C5B5A0081CAD5 /* actionscript.min.js */,
+				1B90CEBC1E2C5B5A0081CAD5 /* ada.min.js */,
+				1B90CEBD1E2C5B5A0081CAD5 /* apache.min.js */,
+				1B90CEBE1E2C5B5A0081CAD5 /* applescript.min.js */,
+				1B90CEBF1E2C5B5A0081CAD5 /* arduino.min.js */,
+				1B90CEC01E2C5B5A0081CAD5 /* armasm.min.js */,
+				1B90CEC11E2C5B5A0081CAD5 /* asciidoc.min.js */,
+				1B90CEC21E2C5B5A0081CAD5 /* aspectj.min.js */,
+				1B90CEC31E2C5B5A0081CAD5 /* autohotkey.min.js */,
+				1B90CEC41E2C5B5A0081CAD5 /* autoit.min.js */,
+				1B90CEC51E2C5B5A0081CAD5 /* avrasm.min.js */,
+				1B90CEC61E2C5B5A0081CAD5 /* awk.min.js */,
+				1B90CEC71E2C5B5A0081CAD5 /* axapta.min.js */,
+				1B90CEC81E2C5B5A0081CAD5 /* bash.min.js */,
+				1B90CEC91E2C5B5A0081CAD5 /* basic.min.js */,
+				1B90CECA1E2C5B5A0081CAD5 /* bnf.min.js */,
+				1B90CECB1E2C5B5A0081CAD5 /* brainfuck.min.js */,
+				1B90CECC1E2C5B5A0081CAD5 /* cal.min.js */,
+				1B90CECD1E2C5B5A0081CAD5 /* capnproto.min.js */,
+				1B90CECE1E2C5B5A0081CAD5 /* ceylon.min.js */,
+				1B90CECF1E2C5B5A0081CAD5 /* clean.min.js */,
+				1B90CED01E2C5B5A0081CAD5 /* clojure-repl.min.js */,
+				1B90CED11E2C5B5A0081CAD5 /* clojure.min.js */,
+				1B90CED21E2C5B5A0081CAD5 /* cmake.min.js */,
+				1B90CED31E2C5B5A0081CAD5 /* coffeescript.min.js */,
+				1B90CED41E2C5B5A0081CAD5 /* coq.min.js */,
+				1B90CED51E2C5B5A0081CAD5 /* cos.min.js */,
+				1B90CED61E2C5B5A0081CAD5 /* cpp.min.js */,
+				1B90CED71E2C5B5A0081CAD5 /* crmsh.min.js */,
+				1B90CED81E2C5B5A0081CAD5 /* crystal.min.js */,
+				1B90CED91E2C5B5A0081CAD5 /* cs.min.js */,
+				1B90CEDA1E2C5B5A0081CAD5 /* csp.min.js */,
+				1B90CEDB1E2C5B5A0081CAD5 /* css.min.js */,
+				1B90CEDC1E2C5B5A0081CAD5 /* d.min.js */,
+				1B90CEDD1E2C5B5A0081CAD5 /* dart.min.js */,
+				1B90CEDE1E2C5B5A0081CAD5 /* delphi.min.js */,
+				1B90CEDF1E2C5B5A0081CAD5 /* diff.min.js */,
+				1B90CEE01E2C5B5A0081CAD5 /* django.min.js */,
+				1B90CEE11E2C5B5A0081CAD5 /* dns.min.js */,
+				1B90CEE21E2C5B5A0081CAD5 /* dockerfile.min.js */,
+				1B90CEE31E2C5B5A0081CAD5 /* dos.min.js */,
+				1B90CEE41E2C5B5A0081CAD5 /* dsconfig.min.js */,
+				1B90CEE51E2C5B5A0081CAD5 /* dts.min.js */,
+				1B90CEE61E2C5B5A0081CAD5 /* dust.min.js */,
+				1B90CEE71E2C5B5A0081CAD5 /* ebnf.min.js */,
+				1B90CEE81E2C5B5A0081CAD5 /* elixir.min.js */,
+				1B90CEE91E2C5B5A0081CAD5 /* elm.min.js */,
+				1B90CEEA1E2C5B5A0081CAD5 /* erb.min.js */,
+				1B90CEEB1E2C5B5A0081CAD5 /* erlang-repl.min.js */,
+				1B90CEEC1E2C5B5A0081CAD5 /* erlang.min.js */,
+				1B90CEED1E2C5B5A0081CAD5 /* excel.min.js */,
+				1B90CEEE1E2C5B5A0081CAD5 /* fix.min.js */,
+				1B90CEEF1E2C5B5A0081CAD5 /* flix.min.js */,
+				1B90CEF01E2C5B5A0081CAD5 /* fortran.min.js */,
+				1B90CEF11E2C5B5A0081CAD5 /* fsharp.min.js */,
+				1B90CEF21E2C5B5A0081CAD5 /* gams.min.js */,
+				1B90CEF31E2C5B5A0081CAD5 /* gauss.min.js */,
+				1B90CEF41E2C5B5A0081CAD5 /* gcode.min.js */,
+				1B90CEF51E2C5B5A0081CAD5 /* gherkin.min.js */,
+				1B90CEF61E2C5B5A0081CAD5 /* glsl.min.js */,
+				1B90CEF71E2C5B5A0081CAD5 /* go.min.js */,
+				1B90CEF81E2C5B5A0081CAD5 /* golo.min.js */,
+				1B90CEF91E2C5B5A0081CAD5 /* gradle.min.js */,
+				1B90CEFA1E2C5B5A0081CAD5 /* groovy.min.js */,
+				1B90CEFB1E2C5B5A0081CAD5 /* haml.min.js */,
+				1B90CEFC1E2C5B5A0081CAD5 /* handlebars.min.js */,
+				1B90CEFD1E2C5B5A0081CAD5 /* haskell.min.js */,
+				1B90CEFE1E2C5B5A0081CAD5 /* haxe.min.js */,
+				1B90CEFF1E2C5B5A0081CAD5 /* hsp.min.js */,
+				1B90CF001E2C5B5A0081CAD5 /* htmlbars.min.js */,
+				1B90CF011E2C5B5A0081CAD5 /* http.min.js */,
+				1B90CF021E2C5B5A0081CAD5 /* inform7.min.js */,
+				1B90CF031E2C5B5A0081CAD5 /* ini.min.js */,
+				1B90CF041E2C5B5A0081CAD5 /* irpf90.min.js */,
+				1B90CF051E2C5B5A0081CAD5 /* java.min.js */,
+				1B90CF061E2C5B5A0081CAD5 /* javascript.min.js */,
+				1B90CF071E2C5B5A0081CAD5 /* json.min.js */,
+				1B90CF081E2C5B5A0081CAD5 /* julia.min.js */,
+				1B90CF091E2C5B5A0081CAD5 /* kotlin.min.js */,
+				1B90CF0A1E2C5B5A0081CAD5 /* lasso.min.js */,
+				1B90CF0B1E2C5B5A0081CAD5 /* ldif.min.js */,
+				1B90CF0C1E2C5B5A0081CAD5 /* less.min.js */,
+				1B90CF0D1E2C5B5A0081CAD5 /* lisp.min.js */,
+				1B90CF0E1E2C5B5A0081CAD5 /* livecodeserver.min.js */,
+				1B90CF0F1E2C5B5A0081CAD5 /* livescript.min.js */,
+				1B90CF101E2C5B5A0081CAD5 /* llvm.min.js */,
+				1B90CF111E2C5B5A0081CAD5 /* lsl.min.js */,
+				1B90CF121E2C5B5A0081CAD5 /* lua.min.js */,
+				1B90CF131E2C5B5A0081CAD5 /* makefile.min.js */,
+				1B90CF141E2C5B5A0081CAD5 /* markdown.min.js */,
+				1B90CF151E2C5B5A0081CAD5 /* mathematica.min.js */,
+				1B90CF161E2C5B5A0081CAD5 /* matlab.min.js */,
+				1B90CF171E2C5B5A0081CAD5 /* maxima.min.js */,
+				1B90CF181E2C5B5A0081CAD5 /* mel.min.js */,
+				1B90CF191E2C5B5A0081CAD5 /* mercury.min.js */,
+				1B90CF1A1E2C5B5A0081CAD5 /* mipsasm.min.js */,
+				1B90CF1B1E2C5B5A0081CAD5 /* mizar.min.js */,
+				1B90CF1C1E2C5B5A0081CAD5 /* mojolicious.min.js */,
+				1B90CF1D1E2C5B5A0081CAD5 /* monkey.min.js */,
+				1B90CF1E1E2C5B5B0081CAD5 /* moonscript.min.js */,
+				1B90CF1F1E2C5B5B0081CAD5 /* nginx.min.js */,
+				1B90CF201E2C5B5B0081CAD5 /* nimrod.min.js */,
+				1B90CF211E2C5B5B0081CAD5 /* nix.min.js */,
+				1B90CF221E2C5B5B0081CAD5 /* nsis.min.js */,
+				1B90CF231E2C5B5B0081CAD5 /* objectivec.min.js */,
+				1B90CF241E2C5B5B0081CAD5 /* ocaml.min.js */,
+				1B90CF251E2C5B5B0081CAD5 /* openscad.min.js */,
+				1B90CF261E2C5B5B0081CAD5 /* oxygene.min.js */,
+				1B90CF271E2C5B5B0081CAD5 /* parser3.min.js */,
+				1B90CF281E2C5B5B0081CAD5 /* perl.min.js */,
+				1B90CF291E2C5B5B0081CAD5 /* pf.min.js */,
+				1B90CF2A1E2C5B5B0081CAD5 /* php.min.js */,
+				1B90CF2B1E2C5B5B0081CAD5 /* pony.min.js */,
+				1B90CF2C1E2C5B5B0081CAD5 /* powershell.min.js */,
+				1B90CF2D1E2C5B5B0081CAD5 /* processing.min.js */,
+				1B90CF2E1E2C5B5B0081CAD5 /* profile.min.js */,
+				1B90CF2F1E2C5B5B0081CAD5 /* prolog.min.js */,
+				1B90CF301E2C5B5B0081CAD5 /* protobuf.min.js */,
+				1B90CF311E2C5B5B0081CAD5 /* puppet.min.js */,
+				1B90CF321E2C5B5B0081CAD5 /* purebasic.min.js */,
+				1B90CF331E2C5B5B0081CAD5 /* python.min.js */,
+				1B90CF341E2C5B5B0081CAD5 /* q.min.js */,
+				1B90CF351E2C5B5B0081CAD5 /* qml.min.js */,
+				1B90CF361E2C5B5B0081CAD5 /* r.min.js */,
+				1B90CF371E2C5B5B0081CAD5 /* rib.min.js */,
+				1B90CF381E2C5B5B0081CAD5 /* roboconf.min.js */,
+				1B90CF391E2C5B5B0081CAD5 /* rsl.min.js */,
+				1B90CF3A1E2C5B5B0081CAD5 /* ruby.min.js */,
+				1B90CF3B1E2C5B5B0081CAD5 /* ruleslanguage.min.js */,
+				1B90CF3C1E2C5B5B0081CAD5 /* rust.min.js */,
+				1B90CF3D1E2C5B5B0081CAD5 /* scala.min.js */,
+				1B90CF3E1E2C5B5B0081CAD5 /* scheme.min.js */,
+				1B90CF3F1E2C5B5B0081CAD5 /* scilab.min.js */,
+				1B90CF401E2C5B5B0081CAD5 /* scss.min.js */,
+				1B90CF411E2C5B5B0081CAD5 /* smali.min.js */,
+				1B90CF421E2C5B5B0081CAD5 /* smalltalk.min.js */,
+				1B90CF431E2C5B5B0081CAD5 /* sml.min.js */,
+				1B90CF441E2C5B5B0081CAD5 /* sqf.min.js */,
+				1B90CF451E2C5B5B0081CAD5 /* sql.min.js */,
+				1B90CF461E2C5B5B0081CAD5 /* stan.min.js */,
+				1B90CF471E2C5B5B0081CAD5 /* stata.min.js */,
+				1B90CF481E2C5B5B0081CAD5 /* step21.min.js */,
+				1B90CF491E2C5B5B0081CAD5 /* stylus.min.js */,
+				1B90CF4A1E2C5B5B0081CAD5 /* subunit.min.js */,
+				1B90CF4B1E2C5B5B0081CAD5 /* swift.min.js */,
+				1B90CF4C1E2C5B5B0081CAD5 /* taggerscript.min.js */,
+				1B90CF4D1E2C5B5B0081CAD5 /* tap.min.js */,
+				1B90CF4E1E2C5B5B0081CAD5 /* tcl.min.js */,
+				1B90CF4F1E2C5B5B0081CAD5 /* tex.min.js */,
+				1B90CF501E2C5B5B0081CAD5 /* thrift.min.js */,
+				1B90CF511E2C5B5B0081CAD5 /* tp.min.js */,
+				1B90CF521E2C5B5B0081CAD5 /* twig.min.js */,
+				1B90CF531E2C5B5B0081CAD5 /* typescript.min.js */,
+				1B90CF541E2C5B5B0081CAD5 /* vala.min.js */,
+				1B90CF551E2C5B5B0081CAD5 /* vbnet.min.js */,
+				1B90CF561E2C5B5B0081CAD5 /* vbscript-html.min.js */,
+				1B90CF571E2C5B5B0081CAD5 /* vbscript.min.js */,
+				1B90CF581E2C5B5B0081CAD5 /* verilog.min.js */,
+				1B90CF591E2C5B5B0081CAD5 /* vhdl.min.js */,
+				1B90CF5A1E2C5B5B0081CAD5 /* vim.min.js */,
+				1B90CF5B1E2C5B5B0081CAD5 /* x86asm.min.js */,
+				1B90CF5C1E2C5B5B0081CAD5 /* xl.min.js */,
+				1B90CF5D1E2C5B5B0081CAD5 /* xml.min.js */,
+				1B90CF5E1E2C5B5B0081CAD5 /* xquery.min.js */,
+				1B90CF5F1E2C5B5B0081CAD5 /* yaml.min.js */,
+				1B90CF601E2C5B5B0081CAD5 /* zephir.min.js */,
+			);
+			path = languages;
+			sourceTree = "<group>";
+		};
+		1B90CF621E2C5B5B0081CAD5 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				1B90CF631E2C5B5B0081CAD5 /* agate.min.css */,
+				1B90CF641E2C5B5B0081CAD5 /* androidstudio.min.css */,
+				1B90CF651E2C5B5B0081CAD5 /* arduino-light.min.css */,
+				1B90CF661E2C5B5B0081CAD5 /* arta.min.css */,
+				1B90CF671E2C5B5B0081CAD5 /* ascetic.min.css */,
+				1B90CF681E2C5B5B0081CAD5 /* atelier-cave-dark.min.css */,
+				1B90CF691E2C5B5B0081CAD5 /* atelier-cave-light.min.css */,
+				1B90CF6A1E2C5B5B0081CAD5 /* atelier-dune-dark.min.css */,
+				1B90CF6B1E2C5B5B0081CAD5 /* atelier-dune-light.min.css */,
+				1B90CF6C1E2C5B5B0081CAD5 /* atelier-estuary-dark.min.css */,
+				1B90CF6D1E2C5B5B0081CAD5 /* atelier-estuary-light.min.css */,
+				1B90CF6E1E2C5B5B0081CAD5 /* atelier-forest-dark.min.css */,
+				1B90CF6F1E2C5B5B0081CAD5 /* atelier-forest-light.min.css */,
+				1B90CF701E2C5B5B0081CAD5 /* atelier-heath-dark.min.css */,
+				1B90CF711E2C5B5B0081CAD5 /* atelier-heath-light.min.css */,
+				1B90CF721E2C5B5B0081CAD5 /* atelier-lakeside-dark.min.css */,
+				1B90CF731E2C5B5B0081CAD5 /* atelier-lakeside-light.min.css */,
+				1B90CF741E2C5B5B0081CAD5 /* atelier-plateau-dark.min.css */,
+				1B90CF751E2C5B5B0081CAD5 /* atelier-plateau-light.min.css */,
+				1B90CF761E2C5B5B0081CAD5 /* atelier-savanna-dark.min.css */,
+				1B90CF771E2C5B5B0081CAD5 /* atelier-savanna-light.min.css */,
+				1B90CF781E2C5B5B0081CAD5 /* atelier-seaside-dark.min.css */,
+				1B90CF791E2C5B5B0081CAD5 /* atelier-seaside-light.min.css */,
+				1B90CF7A1E2C5B5B0081CAD5 /* atelier-sulphurpool-dark.min.css */,
+				1B90CF7B1E2C5B5B0081CAD5 /* atelier-sulphurpool-light.min.css */,
+				1B90CF7C1E2C5B5B0081CAD5 /* atom-one-dark.min.css */,
+				1B90CF7D1E2C5B5B0081CAD5 /* atom-one-light.min.css */,
+				1B90CF7E1E2C5B5B0081CAD5 /* brown-paper.min.css */,
+				1B90CF7F1E2C5B5B0081CAD5 /* brown-papersq.png */,
+				1B90CF801E2C5B5B0081CAD5 /* codepen-embed.min.css */,
+				1B90CF811E2C5B5B0081CAD5 /* color-brewer.min.css */,
+				1B90CF821E2C5B5B0081CAD5 /* darcula.min.css */,
+				1B90CF831E2C5B5B0081CAD5 /* dark.min.css */,
+				1B90CF841E2C5B5B0081CAD5 /* darkula.min.css */,
+				1B90CF851E2C5B5B0081CAD5 /* default.min.css */,
+				1B90CF861E2C5B5B0081CAD5 /* docco.min.css */,
+				1B90CF871E2C5B5B0081CAD5 /* dracula.min.css */,
+				1B90CF881E2C5B5B0081CAD5 /* far.min.css */,
+				1B90CF891E2C5B5B0081CAD5 /* foundation.min.css */,
+				1B90CF8A1E2C5B5B0081CAD5 /* github-gist.min.css */,
+				1B90CF8B1E2C5B5B0081CAD5 /* github.min.css */,
+				1B90CF8C1E2C5B5B0081CAD5 /* googlecode.min.css */,
+				1B90CF8D1E2C5B5B0081CAD5 /* grayscale.min.css */,
+				1B90CF8E1E2C5B5B0081CAD5 /* gruvbox-dark.min.css */,
+				1B90CF8F1E2C5B5B0081CAD5 /* gruvbox-light.min.css */,
+				1B90CF901E2C5B5B0081CAD5 /* hopscotch.min.css */,
+				1B90CF911E2C5B5B0081CAD5 /* hybrid.min.css */,
+				1B90CF921E2C5B5B0081CAD5 /* idea.min.css */,
+				1B90CF931E2C5B5B0081CAD5 /* ir-black.min.css */,
+				1B90CF941E2C5B5B0081CAD5 /* kimbie.dark.min.css */,
+				1B90CF951E2C5B5B0081CAD5 /* kimbie.light.min.css */,
+				1B90CF961E2C5B5B0081CAD5 /* magula.min.css */,
+				1B90CF971E2C5B5B0081CAD5 /* mono-blue.min.css */,
+				1B90CF981E2C5B5B0081CAD5 /* monokai-sublime.min.css */,
+				1B90CF991E2C5B5B0081CAD5 /* monokai.min.css */,
+				1B90CF9A1E2C5B5B0081CAD5 /* obsidian.min.css */,
+				1B90CF9B1E2C5B5B0081CAD5 /* ocean.min.css */,
+				1B90CF9C1E2C5B5B0081CAD5 /* paraiso-dark.min.css */,
+				1B90CF9D1E2C5B5B0081CAD5 /* paraiso-light.min.css */,
+				1B90CF9E1E2C5B5B0081CAD5 /* pojoaque.jpg */,
+				1B90CF9F1E2C5B5B0081CAD5 /* pojoaque.min.css */,
+				1B90CFA01E2C5B5B0081CAD5 /* purebasic.min.css */,
+				1B90CFA11E2C5B5B0081CAD5 /* qtcreator_dark.min.css */,
+				1B90CFA21E2C5B5B0081CAD5 /* qtcreator_light.min.css */,
+				1B90CFA31E2C5B5B0081CAD5 /* railscasts.min.css */,
+				1B90CFA41E2C5B5B0081CAD5 /* rainbow.min.css */,
+				1B90CFA51E2C5B5B0081CAD5 /* school-book.min.css */,
+				1B90CFA61E2C5B5B0081CAD5 /* school-book.png */,
+				1B90CFA71E2C5B5B0081CAD5 /* solarized-dark.min.css */,
+				1B90CFA81E2C5B5B0081CAD5 /* solarized-light.min.css */,
+				1B90CFA91E2C5B5B0081CAD5 /* sunburst.min.css */,
+				1B90CFAA1E2C5B5B0081CAD5 /* tomorrow-night-blue.min.css */,
+				1B90CFAB1E2C5B5B0081CAD5 /* tomorrow-night-bright.min.css */,
+				1B90CFAC1E2C5B5B0081CAD5 /* tomorrow-night-eighties.min.css */,
+				1B90CFAD1E2C5B5B0081CAD5 /* tomorrow-night.min.css */,
+				1B90CFAE1E2C5B5B0081CAD5 /* tomorrow.min.css */,
+				1B90CFAF1E2C5B5B0081CAD5 /* vs.min.css */,
+				1B90CFB01E2C5B5B0081CAD5 /* xcode.min.css */,
+				1B90CFB11E2C5B5B0081CAD5 /* xt256.min.css */,
+				1B90CFB21E2C5B5B0081CAD5 /* zenburn.min.css */,
+			);
+			name = styles;
+			path = Pod/Assets/styles;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B90CC8C1E2C43EF0081CAD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90CC941E2C43EF0081CAD5 /* Highlightr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B90CC8E1E2C43EF0081CAD5 /* Highlightr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B90CC971E2C43EF0081CAD5 /* Build configuration list for PBXNativeTarget "Highlightr" */;
+			buildPhases = (
+				1B90CC8A1E2C43EF0081CAD5 /* Sources */,
+				1B90CC8B1E2C43EF0081CAD5 /* Frameworks */,
+				1B90CC8C1E2C43EF0081CAD5 /* Headers */,
+				1B90CC8D1E2C43EF0081CAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Highlightr;
+			productName = Highlightr;
+			productReference = 1B90CC8F1E2C43EF0081CAD5 /* Highlightr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B90CC861E2C43EF0081CAD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					1B90CC8E1E2C43EF0081CAD5 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B90CC891E2C43EF0081CAD5 /* Build configuration list for PBXProject "Highlightr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B90CC851E2C43EF0081CAD5;
+			productRefGroup = 1B90CC901E2C43EF0081CAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B90CC8E1E2C43EF0081CAD5 /* Highlightr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B90CC8D1E2C43EF0081CAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90D05A1E2C5B5B0081CAD5 /* xquery.min.js in Resources */,
+				1B90D0521E2C5B5B0081CAD5 /* vbscript-html.min.js in Resources */,
+				1B90CFBD1E2C5B5B0081CAD5 /* asciidoc.min.js in Resources */,
+				1B90D0201E2C5B5B0081CAD5 /* ocaml.min.js in Resources */,
+				1B90CFFE1E2C5B5B0081CAD5 /* inform7.min.js in Resources */,
+				1B90D0AC1E2C5B5B0081CAD5 /* xt256.min.css in Resources */,
+				1B90D07A1E2C5B5B0081CAD5 /* brown-papersq.png in Resources */,
+				1B90D0191E2C5B5B0081CAD5 /* monkey.min.js in Resources */,
+				1B90D0721E2C5B5B0081CAD5 /* atelier-savanna-light.min.css in Resources */,
+				1B90D02A1E2C5B5B0081CAD5 /* profile.min.js in Resources */,
+				1B90D02B1E2C5B5B0081CAD5 /* prolog.min.js in Resources */,
+				1B90D0611E2C5B5B0081CAD5 /* arta.min.css in Resources */,
+				1B90CFF41E2C5B5B0081CAD5 /* golo.min.js in Resources */,
+				1B90D06F1E2C5B5B0081CAD5 /* atelier-plateau-dark.min.css in Resources */,
+				1B90D0351E2C5B5B0081CAD5 /* rsl.min.js in Resources */,
+				1B90CFE81E2C5B5B0081CAD5 /* erlang.min.js in Resources */,
+				1B90D0001E2C5B5B0081CAD5 /* irpf90.min.js in Resources */,
+				1B90D0941E2C5B5B0081CAD5 /* monokai.min.css in Resources */,
+				1B90CFC81E2C5B5B0081CAD5 /* cal.min.js in Resources */,
+				1B90D0831E2C5B5B0081CAD5 /* far.min.css in Resources */,
+				1B90D04C1E2C5B5B0081CAD5 /* thrift.min.js in Resources */,
+				1B90CFCE1E2C5B5B0081CAD5 /* cmake.min.js in Resources */,
+				1B90D02D1E2C5B5B0081CAD5 /* puppet.min.js in Resources */,
+				1B90CFEE1E2C5B5B0081CAD5 /* gams.min.js in Resources */,
+				1B90CFE41E2C5B5B0081CAD5 /* elixir.min.js in Resources */,
+				1B90CFB41E2C5B5B0081CAD5 /* 1c.min.js in Resources */,
+				1B90D0621E2C5B5B0081CAD5 /* ascetic.min.css in Resources */,
+				1B90CFEA1E2C5B5B0081CAD5 /* fix.min.js in Resources */,
+				1B90CFFB1E2C5B5B0081CAD5 /* hsp.min.js in Resources */,
+				1B90CFD01E2C5B5B0081CAD5 /* coq.min.js in Resources */,
+				1B90D0261E2C5B5B0081CAD5 /* php.min.js in Resources */,
+				1B90CFFC1E2C5B5B0081CAD5 /* htmlbars.min.js in Resources */,
+				1B90D0AD1E2C5B5B0081CAD5 /* zenburn.min.css in Resources */,
+				1B90CFF01E2C5B5B0081CAD5 /* gcode.min.js in Resources */,
+				1B90D03C1E2C5B5B0081CAD5 /* scss.min.js in Resources */,
+				1B90CFCF1E2C5B5B0081CAD5 /* coffeescript.min.js in Resources */,
+				1B90CFDE1E2C5B5B0081CAD5 /* dockerfile.min.js in Resources */,
+				1B90D02E1E2C5B5B0081CAD5 /* purebasic.min.js in Resources */,
+				1B90D0101E2C5B5B0081CAD5 /* markdown.min.js in Resources */,
+				1B90D00C1E2C5B5B0081CAD5 /* llvm.min.js in Resources */,
+				1B90CFF11E2C5B5B0081CAD5 /* gherkin.min.js in Resources */,
+				1B90CFD31E2C5B5B0081CAD5 /* crmsh.min.js in Resources */,
+				1B90D0691E2C5B5B0081CAD5 /* atelier-forest-dark.min.css in Resources */,
+				1B90D0171E2C5B5B0081CAD5 /* mizar.min.js in Resources */,
+				1B90CFB81E2C5B5B0081CAD5 /* ada.min.js in Resources */,
+				1B90D0A61E2C5B5B0081CAD5 /* tomorrow-night-bright.min.css in Resources */,
+				1B90D0341E2C5B5B0081CAD5 /* roboconf.min.js in Resources */,
+				1B90D0981E2C5B5B0081CAD5 /* paraiso-light.min.css in Resources */,
+				1B90D09A1E2C5B5B0081CAD5 /* pojoaque.min.css in Resources */,
+				1B90CFDA1E2C5B5B0081CAD5 /* delphi.min.js in Resources */,
+				1B90D03F1E2C5B5B0081CAD5 /* sml.min.js in Resources */,
+				1B90D0221E2C5B5B0081CAD5 /* oxygene.min.js in Resources */,
+				1B90D0021E2C5B5B0081CAD5 /* javascript.min.js in Resources */,
+				1B90CFC91E2C5B5B0081CAD5 /* capnproto.min.js in Resources */,
+				1B90CFFF1E2C5B5B0081CAD5 /* ini.min.js in Resources */,
+				1B90D00E1E2C5B5B0081CAD5 /* lua.min.js in Resources */,
+				1B90D0121E2C5B5B0081CAD5 /* matlab.min.js in Resources */,
+				1B90D09D1E2C5B5B0081CAD5 /* qtcreator_light.min.css in Resources */,
+				1B90D0041E2C5B5B0081CAD5 /* julia.min.js in Resources */,
+				1B90CFE31E2C5B5B0081CAD5 /* ebnf.min.js in Resources */,
+				1B90CFE71E2C5B5B0081CAD5 /* erlang-repl.min.js in Resources */,
+				1B90CFB91E2C5B5B0081CAD5 /* apache.min.js in Resources */,
+				1B90D0761E2C5B5B0081CAD5 /* atelier-sulphurpool-light.min.css in Resources */,
+				1B90D0571E2C5B5B0081CAD5 /* x86asm.min.js in Resources */,
+				1B90D0401E2C5B5B0081CAD5 /* sqf.min.js in Resources */,
+				1B90D05F1E2C5B5B0081CAD5 /* androidstudio.min.css in Resources */,
+				1B90D0311E2C5B5B0081CAD5 /* qml.min.js in Resources */,
+				1B90D09C1E2C5B5B0081CAD5 /* qtcreator_dark.min.css in Resources */,
+				1B90CFF51E2C5B5B0081CAD5 /* gradle.min.js in Resources */,
+				1B90D0551E2C5B5B0081CAD5 /* vhdl.min.js in Resources */,
+				1B90D0A41E2C5B5B0081CAD5 /* sunburst.min.css in Resources */,
+				1B90D0711E2C5B5B0081CAD5 /* atelier-savanna-dark.min.css in Resources */,
+				1B90D09F1E2C5B5B0081CAD5 /* rainbow.min.css in Resources */,
+				1B90CFEC1E2C5B5B0081CAD5 /* fortran.min.js in Resources */,
+				1B90CFC41E2C5B5B0081CAD5 /* bash.min.js in Resources */,
+				1B90D00D1E2C5B5B0081CAD5 /* lsl.min.js in Resources */,
+				1B90CFD51E2C5B5B0081CAD5 /* cs.min.js in Resources */,
+				1B90CFD21E2C5B5B0081CAD5 /* cpp.min.js in Resources */,
+				1B90CFB71E2C5B5B0081CAD5 /* actionscript.min.js in Resources */,
+				1B90D03B1E2C5B5B0081CAD5 /* scilab.min.js in Resources */,
+				1B90CFD41E2C5B5B0081CAD5 /* crystal.min.js in Resources */,
+				1B90D00F1E2C5B5B0081CAD5 /* makefile.min.js in Resources */,
+				1B90D0061E2C5B5B0081CAD5 /* lasso.min.js in Resources */,
+				1B90D02F1E2C5B5B0081CAD5 /* python.min.js in Resources */,
+				1B90D0291E2C5B5B0081CAD5 /* processing.min.js in Resources */,
+				1B90CFCD1E2C5B5B0081CAD5 /* clojure.min.js in Resources */,
+				1B90D0751E2C5B5B0081CAD5 /* atelier-sulphurpool-dark.min.css in Resources */,
+				1B90D0081E2C5B5B0081CAD5 /* less.min.js in Resources */,
+				1B90D0421E2C5B5B0081CAD5 /* stan.min.js in Resources */,
+				1B90D0A11E2C5B5B0081CAD5 /* school-book.png in Resources */,
+				1B90D07F1E2C5B5B0081CAD5 /* darkula.min.css in Resources */,
+				1B90D0501E2C5B5B0081CAD5 /* vala.min.js in Resources */,
+				1B90CFB61E2C5B5B0081CAD5 /* accesslog.min.js in Resources */,
+				1B90D0871E2C5B5B0081CAD5 /* googlecode.min.css in Resources */,
+				1B90D06D1E2C5B5B0081CAD5 /* atelier-lakeside-dark.min.css in Resources */,
+				1B90CFD61E2C5B5B0081CAD5 /* csp.min.js in Resources */,
+				1B90D0531E2C5B5B0081CAD5 /* vbscript.min.js in Resources */,
+				1B90CFEF1E2C5B5B0081CAD5 /* gauss.min.js in Resources */,
+				1B90D0561E2C5B5B0081CAD5 /* vim.min.js in Resources */,
+				1B90D04D1E2C5B5B0081CAD5 /* tp.min.js in Resources */,
+				1B90D0241E2C5B5B0081CAD5 /* perl.min.js in Resources */,
+				1B90CFDC1E2C5B5B0081CAD5 /* django.min.js in Resources */,
+				1B90CFC01E2C5B5B0081CAD5 /* autoit.min.js in Resources */,
+				1B90CFBB1E2C5B5B0081CAD5 /* arduino.min.js in Resources */,
+				1B90D0331E2C5B5B0081CAD5 /* rib.min.js in Resources */,
+				1B90D00A1E2C5B5B0081CAD5 /* livecodeserver.min.js in Resources */,
+				1B90D0991E2C5B5B0081CAD5 /* pojoaque.jpg in Resources */,
+				1B90D0581E2C5B5B0081CAD5 /* xl.min.js in Resources */,
+				1B90D05C1E2C5B5B0081CAD5 /* zephir.min.js in Resources */,
+				1B90D0031E2C5B5B0081CAD5 /* json.min.js in Resources */,
+				1B90D05E1E2C5B5B0081CAD5 /* agate.min.css in Resources */,
+				1B90D0A21E2C5B5B0081CAD5 /* solarized-dark.min.css in Resources */,
+				1B90D0961E2C5B5B0081CAD5 /* ocean.min.css in Resources */,
+				1B90CFF71E2C5B5B0081CAD5 /* haml.min.js in Resources */,
+				1B90D08B1E2C5B5B0081CAD5 /* hopscotch.min.css in Resources */,
+				1B90D0911E2C5B5B0081CAD5 /* magula.min.css in Resources */,
+				1B90D0161E2C5B5B0081CAD5 /* mipsasm.min.js in Resources */,
+				1B90CFE01E2C5B5B0081CAD5 /* dsconfig.min.js in Resources */,
+				1B90D0921E2C5B5B0081CAD5 /* mono-blue.min.css in Resources */,
+				1B90D0671E2C5B5B0081CAD5 /* atelier-estuary-dark.min.css in Resources */,
+				1B90D0A51E2C5B5B0081CAD5 /* tomorrow-night-blue.min.css in Resources */,
+				1B90D0281E2C5B5B0081CAD5 /* powershell.min.js in Resources */,
+				1B90D0771E2C5B5B0081CAD5 /* atom-one-dark.min.css in Resources */,
+				1B90D08F1E2C5B5B0081CAD5 /* kimbie.dark.min.css in Resources */,
+				1B90D04E1E2C5B5B0081CAD5 /* twig.min.js in Resources */,
+				1B90D0891E2C5B5B0081CAD5 /* gruvbox-dark.min.css in Resources */,
+				1B90D0441E2C5B5B0081CAD5 /* step21.min.js in Resources */,
+				1B90D04B1E2C5B5B0081CAD5 /* tex.min.js in Resources */,
+				1B90D0881E2C5B5B0081CAD5 /* grayscale.min.css in Resources */,
+				1B90D02C1E2C5B5B0081CAD5 /* protobuf.min.js in Resources */,
+				1B90D0051E2C5B5B0081CAD5 /* kotlin.min.js in Resources */,
+				1B90D08E1E2C5B5B0081CAD5 /* ir-black.min.css in Resources */,
+				1B90CFF61E2C5B5B0081CAD5 /* groovy.min.js in Resources */,
+				1B90D0A91E2C5B5B0081CAD5 /* tomorrow.min.css in Resources */,
+				1B90D01D1E2C5B5B0081CAD5 /* nix.min.js in Resources */,
+				1B90D0591E2C5B5B0081CAD5 /* xml.min.js in Resources */,
+				1B90D03D1E2C5B5B0081CAD5 /* smali.min.js in Resources */,
+				1B90D0681E2C5B5B0081CAD5 /* atelier-estuary-light.min.css in Resources */,
+				1B90D08C1E2C5B5B0081CAD5 /* hybrid.min.css in Resources */,
+				1B90CFFD1E2C5B5B0081CAD5 /* http.min.js in Resources */,
+				1B90D0541E2C5B5B0081CAD5 /* verilog.min.js in Resources */,
+				1B90D0A81E2C5B5B0081CAD5 /* tomorrow-night.min.css in Resources */,
+				1B90D0821E2C5B5B0081CAD5 /* dracula.min.css in Resources */,
+				1B90CFB31E2C5B5B0081CAD5 /* highlight.min.js in Resources */,
+				1B90CFCA1E2C5B5B0081CAD5 /* ceylon.min.js in Resources */,
+				1B90D0431E2C5B5B0081CAD5 /* stata.min.js in Resources */,
+				1B90CFE61E2C5B5B0081CAD5 /* erb.min.js in Resources */,
+				1B90CFE51E2C5B5B0081CAD5 /* elm.min.js in Resources */,
+				1B90D06E1E2C5B5B0081CAD5 /* atelier-lakeside-light.min.css in Resources */,
+				1B90CFBC1E2C5B5B0081CAD5 /* armasm.min.js in Resources */,
+				1B90D09B1E2C5B5B0081CAD5 /* purebasic.min.css in Resources */,
+				1B90D0971E2C5B5B0081CAD5 /* paraiso-dark.min.css in Resources */,
+				1B90D0741E2C5B5B0081CAD5 /* atelier-seaside-light.min.css in Resources */,
+				1B90D01C1E2C5B5B0081CAD5 /* nimrod.min.js in Resources */,
+				1B90D0AB1E2C5B5B0081CAD5 /* xcode.min.css in Resources */,
+				1B90D0A71E2C5B5B0081CAD5 /* tomorrow-night-eighties.min.css in Resources */,
+				1B90D0071E2C5B5B0081CAD5 /* ldif.min.js in Resources */,
+				1B90D0641E2C5B5B0081CAD5 /* atelier-cave-light.min.css in Resources */,
+				1B90D0391E2C5B5B0081CAD5 /* scala.min.js in Resources */,
+				1B90D0931E2C5B5B0081CAD5 /* monokai-sublime.min.css in Resources */,
+				1B90CFDB1E2C5B5B0081CAD5 /* diff.min.js in Resources */,
+				1B90CFCC1E2C5B5B0081CAD5 /* clojure-repl.min.js in Resources */,
+				1B90D06B1E2C5B5B0081CAD5 /* atelier-heath-dark.min.css in Resources */,
+				1B90D0651E2C5B5B0081CAD5 /* atelier-dune-dark.min.css in Resources */,
+				1B90D0861E2C5B5B0081CAD5 /* github.min.css in Resources */,
+				1B90D03A1E2C5B5B0081CAD5 /* scheme.min.js in Resources */,
+				1B90CFC21E2C5B5B0081CAD5 /* awk.min.js in Resources */,
+				1B90CFBE1E2C5B5B0081CAD5 /* aspectj.min.js in Resources */,
+				1B90D0381E2C5B5B0081CAD5 /* rust.min.js in Resources */,
+				1B90D0481E2C5B5B0081CAD5 /* taggerscript.min.js in Resources */,
+				1B90CFF91E2C5B5B0081CAD5 /* haskell.min.js in Resources */,
+				1B90CFE11E2C5B5B0081CAD5 /* dts.min.js in Resources */,
+				1B90D0361E2C5B5B0081CAD5 /* ruby.min.js in Resources */,
+				1B90CFBF1E2C5B5B0081CAD5 /* autohotkey.min.js in Resources */,
+				1B90D0AA1E2C5B5B0081CAD5 /* vs.min.css in Resources */,
+				1B90D0A01E2C5B5B0081CAD5 /* school-book.min.css in Resources */,
+				1B90D06C1E2C5B5B0081CAD5 /* atelier-heath-light.min.css in Resources */,
+				1B90CFD81E2C5B5B0081CAD5 /* d.min.js in Resources */,
+				1B90D0661E2C5B5B0081CAD5 /* atelier-dune-light.min.css in Resources */,
+				1B90D0511E2C5B5B0081CAD5 /* vbnet.min.js in Resources */,
+				1B90D05B1E2C5B5B0081CAD5 /* yaml.min.js in Resources */,
+				1B90D08A1E2C5B5B0081CAD5 /* gruvbox-light.min.css in Resources */,
+				1B90CFED1E2C5B5B0081CAD5 /* fsharp.min.js in Resources */,
+				1B90D0901E2C5B5B0081CAD5 /* kimbie.light.min.css in Resources */,
+				1B90D0091E2C5B5B0081CAD5 /* lisp.min.js in Resources */,
+				1B90CFD11E2C5B5B0081CAD5 /* cos.min.js in Resources */,
+				1B90D06A1E2C5B5B0081CAD5 /* atelier-forest-light.min.css in Resources */,
+				1B90D00B1E2C5B5B0081CAD5 /* livescript.min.js in Resources */,
+				1B90D0141E2C5B5B0081CAD5 /* mel.min.js in Resources */,
+				1B90D07E1E2C5B5B0081CAD5 /* dark.min.css in Resources */,
+				1B90CFBA1E2C5B5B0081CAD5 /* applescript.min.js in Resources */,
+				1B90D07B1E2C5B5B0081CAD5 /* codepen-embed.min.css in Resources */,
+				1B90D08D1E2C5B5B0081CAD5 /* idea.min.css in Resources */,
+				1B90D0801E2C5B5B0081CAD5 /* default.min.css in Resources */,
+				1B90D0411E2C5B5B0081CAD5 /* sql.min.js in Resources */,
+				1B90CFFA1E2C5B5B0081CAD5 /* haxe.min.js in Resources */,
+				1B90CFE91E2C5B5B0081CAD5 /* excel.min.js in Resources */,
+				1B90CFC31E2C5B5B0081CAD5 /* axapta.min.js in Resources */,
+				1B90D01E1E2C5B5B0081CAD5 /* nsis.min.js in Resources */,
+				1B90D0701E2C5B5B0081CAD5 /* atelier-plateau-light.min.css in Resources */,
+				1B90D0631E2C5B5B0081CAD5 /* atelier-cave-dark.min.css in Resources */,
+				1B90D0851E2C5B5B0081CAD5 /* github-gist.min.css in Resources */,
+				1B90D0491E2C5B5B0081CAD5 /* tap.min.js in Resources */,
+				1B90CFD91E2C5B5B0081CAD5 /* dart.min.js in Resources */,
+				1B90D0251E2C5B5B0081CAD5 /* pf.min.js in Resources */,
+				1B90CFC71E2C5B5B0081CAD5 /* brainfuck.min.js in Resources */,
+				1B90D04F1E2C5B5B0081CAD5 /* typescript.min.js in Resources */,
+				1B90CFF31E2C5B5B0081CAD5 /* go.min.js in Resources */,
+				1B90D0211E2C5B5B0081CAD5 /* openscad.min.js in Resources */,
+				1B90D07D1E2C5B5B0081CAD5 /* darcula.min.css in Resources */,
+				1B90D0271E2C5B5B0081CAD5 /* pony.min.js in Resources */,
+				1B90D0301E2C5B5B0081CAD5 /* q.min.js in Resources */,
+				1B90D0811E2C5B5B0081CAD5 /* docco.min.css in Resources */,
+				1B90D09E1E2C5B5B0081CAD5 /* railscasts.min.css in Resources */,
+				1B90D0151E2C5B5B0081CAD5 /* mercury.min.js in Resources */,
+				1B90CFC11E2C5B5B0081CAD5 /* avrasm.min.js in Resources */,
+				1B90D03E1E2C5B5B0081CAD5 /* smalltalk.min.js in Resources */,
+				1B90D01B1E2C5B5B0081CAD5 /* nginx.min.js in Resources */,
+				1B90CFEB1E2C5B5B0081CAD5 /* flix.min.js in Resources */,
+				1B90D0A31E2C5B5B0081CAD5 /* solarized-light.min.css in Resources */,
+				1B90D0011E2C5B5B0081CAD5 /* java.min.js in Resources */,
+				1B90D0731E2C5B5B0081CAD5 /* atelier-seaside-dark.min.css in Resources */,
+				1B90D01F1E2C5B5B0081CAD5 /* objectivec.min.js in Resources */,
+				1B90CFE21E2C5B5B0081CAD5 /* dust.min.js in Resources */,
+				1B90D0601E2C5B5B0081CAD5 /* arduino-light.min.css in Resources */,
+				1B90CFD71E2C5B5B0081CAD5 /* css.min.js in Resources */,
+				1B90D0451E2C5B5B0081CAD5 /* stylus.min.js in Resources */,
+				1B90CFF81E2C5B5B0081CAD5 /* handlebars.min.js in Resources */,
+				1B90D0781E2C5B5B0081CAD5 /* atom-one-light.min.css in Resources */,
+				1B90D0841E2C5B5B0081CAD5 /* foundation.min.css in Resources */,
+				1B90D0471E2C5B5B0081CAD5 /* swift.min.js in Resources */,
+				1B90D0461E2C5B5B0081CAD5 /* subunit.min.js in Resources */,
+				1B90CFDD1E2C5B5B0081CAD5 /* dns.min.js in Resources */,
+				1B90D04A1E2C5B5B0081CAD5 /* tcl.min.js in Resources */,
+				1B90D0951E2C5B5B0081CAD5 /* obsidian.min.css in Resources */,
+				1B90CFF21E2C5B5B0081CAD5 /* glsl.min.js in Resources */,
+				1B90D07C1E2C5B5B0081CAD5 /* color-brewer.min.css in Resources */,
+				1B90CFCB1E2C5B5B0081CAD5 /* clean.min.js in Resources */,
+				1B90D0371E2C5B5B0081CAD5 /* ruleslanguage.min.js in Resources */,
+				1B90CFC61E2C5B5B0081CAD5 /* bnf.min.js in Resources */,
+				1B90D0321E2C5B5B0081CAD5 /* r.min.js in Resources */,
+				1B90D0791E2C5B5B0081CAD5 /* brown-paper.min.css in Resources */,
+				1B90D0181E2C5B5B0081CAD5 /* mojolicious.min.js in Resources */,
+				1B90D0231E2C5B5B0081CAD5 /* parser3.min.js in Resources */,
+				1B90CFB51E2C5B5B0081CAD5 /* abnf.min.js in Resources */,
+				1B90CFC51E2C5B5B0081CAD5 /* basic.min.js in Resources */,
+				1B90D01A1E2C5B5B0081CAD5 /* moonscript.min.js in Resources */,
+				1B90CFDF1E2C5B5B0081CAD5 /* dos.min.js in Resources */,
+				1B90D0111E2C5B5B0081CAD5 /* mathematica.min.js in Resources */,
+				1B90D0131E2C5B5B0081CAD5 /* maxima.min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B90CC8A1E2C43EF0081CAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90CEB41E2C5B3D0081CAD5 /* Theme.swift in Sources */,
+				1B90CEB31E2C5B3D0081CAD5 /* HTMLUtils.swift in Sources */,
+				1B90CEB11E2C5B3D0081CAD5 /* CodeAttributedString.swift in Sources */,
+				1B90CEB21E2C5B3D0081CAD5 /* Highlightr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B90CC951E2C43EF0081CAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B90CC961E2C43EF0081CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B90CC981E2C43EF0081CAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Highlightr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.highlightr.Highlightr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B90CC991E2C43EF0081CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Highlightr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.highlightr.Highlightr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B90CC891E2C43EF0081CAD5 /* Build configuration list for PBXProject "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B90CC951E2C43EF0081CAD5 /* Debug */,
+				1B90CC961E2C43EF0081CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B90CC971E2C43EF0081CAD5 /* Build configuration list for PBXNativeTarget "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B90CC981E2C43EF0081CAD5 /* Debug */,
+				1B90CC991E2C43EF0081CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B90CC861E2C43EF0081CAD5 /* Project object */;
+}
