@@ -54,7 +54,11 @@ open class CodeAttributedString : NSTextStorage
         super.init(coder: aDecoder)
         setupListeners()
     }
-    
+
+    required public init(itemProviderData data: Data, typeIdentifier: String) throws {
+        fatalError("init(itemProviderData:typeIdentifier:) has not been implemented")
+    }
+
     #if os(OSX)
     /// Initialize the CodeAttributedString
     required public init?(pasteboardPropertyList propertyList: Any, ofType type: String)
